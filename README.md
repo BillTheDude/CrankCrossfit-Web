@@ -1,4 +1,4 @@
-#Install Bootstrap
+# Install Bootstrap
 To ensure website renders its UI elements appropiately, make sure have to React Bootstrap package installed.
 ```
 npm install react-bootstrap bootstrap
