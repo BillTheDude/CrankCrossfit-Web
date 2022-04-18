@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import {
@@ -9,8 +8,8 @@ import {
   Routes
 } from 'react-router-dom';
 
-import Home from './pages/home';
-import AboutUs from './pages/aboutUs';
+import Home from './pages/Home/home';
+import AboutUs from './pages/AboutUs/aboutUs';
 import GetStarted from './pages/getStarted';
 import Contact from './pages/contact';
 
