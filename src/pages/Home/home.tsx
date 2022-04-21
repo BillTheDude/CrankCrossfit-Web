@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./home.css";
 
 function Home() {
     return (
@@ -8,7 +8,7 @@ function Home() {
             ------------START OF HEADER SECTION--------------
             */}
 
-            <header className="nav-header" style={{height: "150px", fontSize: "20px",alignContent:"center"}}>
+            <header className="nav-header" style={{height: "100px", fontSize: "18px",alignContent:"center"}}>
           
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark " style={ {minHeight: "10%", height: "100%"}}>
                         <div className="container-fluid">
@@ -53,25 +53,29 @@ function Home() {
             ------------END OF HEADER SECTION--------------
             */}
 
-            <div className="first-section" style={{justifyContent:"center"}}>
-                <h2 style={{fontSize: "52px",fontStyle:"bolder"}}>CRANK IT UP!</h2>
+            <div className="section first-section">
+                <h2 style={{fontSize: "52px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
                 <p style={{fontSize:"24px"}}>Kendall's most fittest crossfit</p>
 
                 {/* button */}
-                <button className="btn-submit bg-danger text-white rounded-pill border border-light" style={{fontSize: "24px", padding:"12px 18px"}}>
+                <button className="btn-submit bg-danger text-white rounded-pill border border-light" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center"}}>
                     Start Now</button>
                 
             </div>
 
-            <div className="second-section">
-                
+            <div className="section second-section ">
+                <h2 style={{fontSize: "48px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
+                <div className="text-img">    
+                    <p style={{fontSize:"22"}}>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
+                    <img src="" alt="" />
+                </div>
             </div>
             
 
             {/* 
             ------------START OF FOOTER SECTION--------------
             */}
-            <section className="">
+            <section className="footer-section">
                 <footer className="bg-dark text-white text-center text-md-start fixed-bottom">
                 
                     <div className="container p-4">
