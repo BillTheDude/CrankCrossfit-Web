@@ -1,9 +1,10 @@
 import React from "react";
 import "./home.css";
 
+
 function Home() {
     return (
-        <div className="Home">
+        <div className="home">
              {/* 
             ------------START OF HEADER SECTION--------------
             */}
@@ -14,7 +15,7 @@ function Home() {
                         <div className="container-fluid">
 
                             <a className="navbar-brand" href="#">
-                                <img src="/images/Logo/crankcrossfit-logo.jpg" alt="gym logo"width="130" height="130"/>
+                                <img src="" alt="gym logo"width="130" height="130"/>
                             </a>
 
                             <button
@@ -53,7 +54,7 @@ function Home() {
             ------------END OF HEADER SECTION--------------
             */}
 
-            <div className="section first-section">
+            <div className="first-section">
                 <h2 style={{fontSize: "52px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
                 <p style={{fontSize:"24px"}}>Kendall's most fittest crossfit</p>
 
@@ -64,10 +65,20 @@ function Home() {
             </div>
 
             <div className="section second-section ">
-                <h2 style={{fontSize: "48px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
-                <div className="text-img">    
+                <div id="content-second-section">
+                    <h2 style={{fontSize: "52px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
                     <p style={{fontSize:"22"}}>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
-                    <img src="" alt="" />
+                </div>       
+                <img src={require('../../images/gym1.jpeg')} alt="" width={'750px'} height={'450px'}/>
+        
+            </div>
+
+
+            <div className="section third-section">
+                <img src={require('../../images/gym1.jpeg')} alt="more than a just img" width={'850px'} height={'450px'} />
+                <div id="content-third-section">
+                    <h2 style={{fontSize: "52px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
+                    <p style={{fontSize:"22"}}>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
                 </div>
             </div>
             
@@ -76,13 +87,13 @@ function Home() {
             ------------START OF FOOTER SECTION--------------
             */}
             <section className="footer-section">
-                <footer className="bg-dark text-white text-center text-md-start fixed-bottom">
+                <footer className="bg-dark text-white text-center text-md-start ">
                 
                     <div className="container p-4">
             
                         <div className="row">
                             <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Footer Content</h5>
+                                <h5 className="text-uppercase">our location</h5>
 
                                 <p>
                                 12117 SW 114th Pl, Miami, FL 33176
