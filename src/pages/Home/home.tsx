@@ -69,17 +69,41 @@ function Home() {
                     <h2 style={{fontSize: "52px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
                     <p style={{fontSize:"22"}}>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
                 </div>       
-                <img src={require('../../images/gym1.jpeg')} alt="" width={'750px'} height={'450px'}/>
+                <img src={require('../../images/group-pic1.jpg')} alt="group-pic-1" />
         
+            </div>
+
+            <div className="wrapper-section">
+                <div className="wrapper-content">
+                    <div className="box1">Live a healthy life
+                        <p>
+                            Nutrition is as important as exercise.
+                            Our coaches ensure to give the neccesary
+                            nutritional help that will lead to a 
+                            healthier lifestyle.
+                        </p>
+                        <img src={require('../../images/miguel-portrait.jpg')} alt="" />
+                       
+                    </div>
+                    <div className="box2">Bootcamp Saturdays</div>
+                </div>
             </div>
 
 
             <div className="section third-section">
-                <img src={require('../../images/gym1.jpeg')} alt="more than a just img" width={'850px'} height={'450px'} />
+                <img src={require('../../images/gym1.jpeg')} alt="more than a just img"/>
                 <div id="content-third-section">
                     <h2 style={{fontSize: "52px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
                     <p style={{fontSize:"22"}}>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
                 </div>
+            </div>
+
+            <div className="section fourth-section">
+                <div id="content-fourth-section">
+                    <h2 style={{fontSize: "52px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>First Workout For Free</h2>
+                    <p style={{fontSize:"22"}}>Want to try out our gym or want to learn more about crossfit with us? We got you. Your first class is completely FREE. Come to the gym and let the coaches know!</p>
+                </div>
+
             </div>
             
 
@@ -134,7 +158,7 @@ function Home() {
                                     </li>
 
                                     <li>
-                                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                                        <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/therealcrankcrossfit/?hl=en" role="button"
                                         ><i className="fab fa-instagram"></i
                                         ></a>
                                     </li>
