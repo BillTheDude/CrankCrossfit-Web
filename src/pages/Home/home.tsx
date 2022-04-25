@@ -14,7 +14,7 @@ function Home() {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark " style={ {minHeight: "10%", height: "100%"}}>
                         <div className="container-fluid">
 
-                            <a className="navbar-brand" href="#">
+                            <a className="navbar-brand" href="/home">
                                 <img src="" alt="gym logo"width="130" height="130"/>
                             </a>
 
@@ -39,10 +39,10 @@ function Home() {
                                     <a className="nav-link" href="#">Schedule</a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Get Started</a>
+                                    <a className="nav-link" href="/getStarted">Get Started</a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
+                                    <a className="nav-link" href="/contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
