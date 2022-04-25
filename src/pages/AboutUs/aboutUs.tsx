@@ -7,13 +7,13 @@ function AboutUs(){
        ------------START OF HEADER SECTION--------------
        */}
 
-       <header className="nav-header" style={{height: "100px", fontSize: "18px",alignContent:"center"}}>
+       <header className="nav-header" style={{height: "125px", fontSize: "18px",alignContent:"center"}}>
      
            <nav className="navbar navbar-expand-lg navbar-dark bg-dark " style={ {minHeight: "10%", height: "100%"}}>
                    <div className="container-fluid">
 
-                       <a className="navbar-brand" href="#">
-                           <img src="" alt="gym logo"width="130" height="130"/>
+                       <a className="navbar-brand" href="/">
+                           <img src={require('../../images/Logo/crankcrossfit-logo.jpg')} alt="gym logo"width="125" height="125"/>
                        </a>
 
                        <button
@@ -31,16 +31,16 @@ function AboutUs(){
                        <div className="collapse navbar-collapse" id="navbarNav">
                            <ul className="navbar-nav">
                                <li className="nav-item">
-                               <a className="nav-link active" aria-current="page" href="/aboutus">About Us</a>
+                               <a className="nav-link" aria-current="page" href="/aboutus">About Us</a>
                                </li>
                                <li className="nav-item">
                                <a className="nav-link" href="#">Schedule</a>
                                </li>
                                <li className="nav-item">
-                               <a className="nav-link" href="#">Get Started</a>
+                               <a className="nav-link" href="/getStarted">Get Started</a>
                                </li>
                                <li className="nav-item">
-                               <a className="nav-link" href="#">Contact</a>
+                               <a className="nav-link" href="/contact">Contact</a>
                                </li>
                            </ul>
                        </div>

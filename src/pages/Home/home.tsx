@@ -9,13 +9,13 @@ function Home() {
             ------------START OF HEADER SECTION--------------
             */}
 
-            <header className="nav-header" style={{height: "100px", fontSize: "18px",alignContent:"center"}}>
+            <header className="nav-header" style={{height: "125px", fontSize: "18px",alignContent:"center"}}>
           
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark " style={ {minHeight: "10%", height: "100%"}}>
                         <div className="container-fluid">
 
-                            <a className="navbar-brand" href="#">
-                                <img src="" alt="gym logo"width="130" height="130"/>
+                            <a className="navbar-brand" href="/">
+                                <img src={require('../../images/Logo/crankcrossfit-logo.jpg')} alt="gym logo"width="125" height="125"/>
                             </a>
 
                             <button
@@ -33,16 +33,16 @@ function Home() {
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="/aboutus">About Us</a>
+                                    <a className="nav-link" aria-current="page" href="/aboutus">About Us</a>
                                     </li>
                                     <li className="nav-item">
                                     <a className="nav-link" href="#">Schedule</a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Get Started</a>
+                                    <a className="nav-link" href="/getStarted">Get Started</a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
+                                    <a className="nav-link" href="/contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -73,6 +73,9 @@ function Home() {
         
             </div>
 
+            {/* 
+            WRAPPER SECTION DISPLAYING TWO COLUMNS OF CONTENT
+            */}
             <div className="wrapper-section">
                 <div className="wrapper-content">
                     <div className="box1">Live a healthy life
@@ -103,7 +106,7 @@ function Home() {
                     <h2 style={{fontSize: "52px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>First Workout For Free</h2>
                     <p style={{fontSize:"22"}}>Want to try out our gym or want to learn more about crossfit with us? We got you. Your first class is completely FREE. Come to the gym and let the coaches know!</p>
                 </div>
-
+                <img src={require('../../images/first_workout_free-image.jpg')} alt="" />
             </div>
             
 

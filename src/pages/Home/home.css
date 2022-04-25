@@ -19,6 +19,15 @@
     padding: 12px;
 }
 
+/*
+NAVBAR ELEMENTS
+*/
+.navbar-nav{
+    text-transform: uppercase;
+    
+    font-weight:600;
+}
+
 /*MAYBE MOBILE SCREEN RESOLUTION???*/
 @media screen and (max-width: 360px) {
     .first-section > h2 {
@@ -175,5 +184,13 @@
     margin: 1em 2.5em;
     padding: 12px 2px;
     width: 90%;
+}
+
+/*FOURTH SECTION*/
+.fourth-section{
+    margin: 0;
+    margin-top: 1em;
+    padding: 6px;
+    background-color: #EAEAEA;
 }
 /*FOOTER*/
