@@ -10,7 +10,7 @@ import {
 import Home from './pages/Home/home';
 import AboutUs from './pages/AboutUs/aboutUs';
 import GetStarted from './pages/getStarted';
-import Contact from './pages/contact';
+import Contact from './pages/Contact/contact';
 
 function App() {
   return (

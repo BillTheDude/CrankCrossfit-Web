@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import React from "react";
 import "./home.css";
 
@@ -11,11 +12,11 @@ function Home() {
 
             <header className="nav-header" style={{height: "125px", fontSize: "18px",alignContent:"center"}}>
           
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark " style={ {minHeight: "10%", height: "100%"}}>
+                <nav className="navbar navbar-expand-lg navbar-dark  " style={ {minHeight: "10%", height: "100%", backgroundColor:"#090B0B"}}>
                         <div className="container-fluid">
 
                             <a className="navbar-brand" href="/">
-                                <img src={require('../../images/Logo/crankcrossfit-logo.jpg')} alt="gym logo"width="125" height="125"/>
+                                <img src={require('../../images/Logo/crankcrossfit-logo.jpg')} alt="gym logo"width="115" height="115"/>
                             </a>
 
                             <button
@@ -54,15 +55,26 @@ function Home() {
             ------------END OF HEADER SECTION--------------
             */}
 
+            {/* 
+                ----------START OF FIRST SECTION----------
+             */}
             <div className="first-section">
-                <h2 style={{fontSize: "52px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
-                <p style={{fontSize:"24px"}}>Kendall's most fittest crossfit</p>
-
-                {/* button */}
-                <button className="btn-submit bg-danger text-white rounded-pill border border-light" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center"}}>
-                    Start Now</button>
+                <div className="centered-text">    
+                    <h2 style={{fontSize: "52px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
+                    <p style={{fontSize:"24px"}}>Kendall's most fittest crossfit</p>
+                    <div className="button-div">
+                        <button className="btn-submit text-white rounded-pill border border-light" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
+                            Start Now
+                        </button>
+                    </div>
+                </div>
+]
                 
             </div>
+
+            {/* 
+                ----------END OF FIRST SECTION----------
+             */}
 
             <div className="section second-section ">
                 <div id="content-second-section">
@@ -74,7 +86,7 @@ function Home() {
             </div>
 
             {/* 
-            WRAPPER SECTION DISPLAYING TWO COLUMNS OF CONTENT
+            --------------WRAPPER SECTION DISPLAYING TWO COLUMNS OF CONTENT--------------
             */}
             <div className="wrapper-section">
                 <div className="wrapper-content">
@@ -92,15 +104,22 @@ function Home() {
                 </div>
             </div>
 
+            {/* 
+            --------------END OF WRAPPER SECTION--------------
+            */}
 
             <div className="section third-section">
                 <img src={require('../../images/gym1.jpeg')} alt="more than a just img"/>
                 <div id="content-third-section">
                     <h2 style={{fontSize: "52px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
-                    <p style={{fontSize:"22"}}>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
+                    <p>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
                 </div>
             </div>
 
+
+            {/* 
+            --------------START OF FOURTH SECTION--------------
+            */}
             <div className="section fourth-section">
                 <div id="content-fourth-section">
                     <h2 style={{fontSize: "52px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>First Workout For Free</h2>
@@ -108,13 +127,17 @@ function Home() {
                 </div>
                 <img src={require('../../images/first_workout_free-image.jpg')} alt="" />
             </div>
+
+             {/* 
+            --------------END OF FOURTH SECTION--------------
+            */}
             
 
             {/* 
             ------------START OF FOOTER SECTION--------------
             */}
             <section className="footer-section">
-                <footer className="bg-dark text-white text-center text-md-start ">
+                <footer className=" text-white text-center text-md-start" style={{backgroundColor:"#090B0B"}}>
                 
                     <div className="container p-4">
             

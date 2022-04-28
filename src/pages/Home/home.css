@@ -2,6 +2,10 @@
     background-color: rgb(255, 95, 83) !important;
 }
 
+/*
+---------START OF FIRST SECTION---------
+*/
+
 .first-section > h2 {
     text-align: center;
     margin: 1em;
@@ -13,11 +17,35 @@
     margin: 2px;
     padding: 12px;
 }
+.button-div{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
 .section{
     display: flex;
     margin: 6px;
     padding: 12px;
 }
+.first-section{
+    position: relative;
+    text-align: center;
+    color: white;
+   max-height: 100vh;
+}
+
+.centered-text{
+    max-height: 200vh;
+    width: 100%;
+    background: linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)),
+        url('../../images/first-section-bkg.jpg');
+}
+/*
+---------END OF FIRST SECTION---------
+*/
 
 /*
 NAVBAR ELEMENTS
@@ -26,6 +54,9 @@ NAVBAR ELEMENTS
     text-transform: uppercase;
     
     font-weight:600;
+}
+.navbar-brand > img{
+    border-radius: 50%;
 }
 
 /*MAYBE MOBILE SCREEN RESOLUTION???*/
@@ -82,12 +113,16 @@ NAVBAR ELEMENTS
     margin: 1.5em 10px;
     padding: 14px;
 }
-.second-section > img{
-    padding: 3px;
-    margin: 0px 10px;
-    float: right;
+.second-section{
+    background-color: #EAEAEA;
+    margin: 0;
+    margin-bottom: 1em;
 }
 
+
+/*
+------------END OF SECOND SECTION------------
+*/
 
 /*4 SMALL GRIDS WITH CONTENT*/
 .wrapper-section {
@@ -187,10 +222,49 @@ NAVBAR ELEMENTS
 }
 
 /*FOURTH SECTION*/
+@media screen and (max-width: 1366px) {
+    .fourth-section{
+        margin: 0;
+        margin-top: 1em;
+        padding: 0;
+        
+    }
+    #content-fourth-section {
+        justify-items: center;
+
+    }
+    #content-fourth-section > h2{
+        font-size: 22px;
+
+    }
+    #content-fourth-section > p {
+        font-size: 16px;
+    }
+    .fourth-section > img {
+        width: 10%;
+        height: 100px;
+    }
+}
 .fourth-section{
     margin: 0;
     margin-top: 1em;
-    padding: 6px;
+    padding: 0px;
     background-color: #EAEAEA;
 }
+#content-fourth-section {
+    margin-top: 5%;
+    margin-left: 2em;
+    padding: 4px;
+}
+#content-fourth-section > p {
+    margin-top: 4em;
+    font-size: 22px;
+    width: 75%;
+}
+.fourth-section > img {
+    width: 80%;
+    height: 650px;
+}
+
+/*END OF FOURTH SECTION*/
 /*FOOTER*/

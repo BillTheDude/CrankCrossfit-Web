@@ -1,7 +1,7 @@
 import React from "react";
 
-function AboutUs(){
-    return (
+function Contact() {
+    return(
         <div className="home">
         {/* 
        ------------START OF HEADER SECTION--------------
@@ -52,13 +52,22 @@ function AboutUs(){
        ------------END OF HEADER SECTION--------------
        */}
 
-
-       <div className="first-section">
-           <h2>Our Coaches</h2>
-           It’s all about technique. That is the motto from every Crank Crossfit coach. They are the most skillful, experienced, as well as the most friendiest coaches you will ever find on any gym.
-       </div>
+        {/* 
+        --------------START OF CONTENT PAGE--------------
+        */}
+        <div>
+            <h2>READY TO MAKE A FIRST STEP?</h2>
+            <p>Your first class is completely free!</p>
+            <footer>
+                <p>12117 SW 114th Pl, Miami, FL 33176</p>
+            </footer>
+        </div>
 
         {/* 
+        --------------END OF CONTENT PAGE-------------- 
+        */}
+
+       {/* 
             ------------START OF FOOTER SECTION--------------
             */}
             <section className="footer-section">
@@ -129,8 +138,10 @@ function AboutUs(){
              {/* 
             ------------END OF FOOTER SECTION--------------
             */}
+    
             </div>
     );
 }
 
-export default AboutUs;
+
+export default Contact;
