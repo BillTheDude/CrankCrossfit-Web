@@ -2,7 +2,6 @@ import { url } from "inspector";
 import React from "react";
 import "./home.css";
 
-
 function Home() {
     return (
         <div className="home">
@@ -18,7 +17,6 @@ function Home() {
                             <a className="navbar-brand" href="/">
                                 <img src={require('../../images/Logo/crankcrossfit-logo.jpg')} alt="gym logo"width="115" height="115"/>
                             </a>
-
                             <button
                             className="navbar-toggler"
                             type="button"
@@ -78,10 +76,10 @@ function Home() {
 
             <div className="section second-section ">
                 <div id="content-second-section">
-                    <h2 style={{fontSize: "52px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
-                    <p style={{fontSize:"22"}}>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
+                    <h2 style={{fontSize: "50px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
+                    <p style={{fontSize:"20px"}}>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
                 </div>       
-                <img src={require('../../images/group-pic1.jpg')} alt="group-pic-1" />
+                <img style={{width: "700px"}}src={require('../../images/group-pic1.jpg')} alt="group-pic-1" />
         
             </div>
 
@@ -109,9 +107,9 @@ function Home() {
             */}
 
             <div className="section third-section">
-                <img src={require('../../images/gym1.jpeg')} alt="more than a just img"/>
+                <img src={require('../../images/gym1.jpeg')}style={{width: "750px",margin:"0"}} alt="more than a just img"/>
                 <div id="content-third-section">
-                    <h2 style={{fontSize: "52px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
+                    <h2 style={{fontSize: "50px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
                     <p>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
                 </div>
             </div>
