@@ -1,6 +1,7 @@
 import { url } from "inspector";
 import React from "react";
 import "./home.css";
+import "../../global.css";
 
 function Home() {
     return (
@@ -9,7 +10,7 @@ function Home() {
             ------------START OF HEADER SECTION--------------
             */}
 
-            <header className="nav-header" style={{height: "125px", fontSize: "18px",alignContent:"center"}}>
+            <header className="nav-header" style={{height: "125px", fontSize: "18px"}}>
           
                 <nav className="navbar navbar-expand-lg navbar-dark  " style={ {minHeight: "10%", height: "100%", backgroundColor:"#090B0B"}}>
                         <div className="container-fluid">
@@ -61,7 +62,7 @@ function Home() {
                     <h2 style={{fontSize: "52px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
                     <p style={{fontSize:"24px"}}>Kendall's most fittest crossfit</p>
                     <div className="button-div">
-                        <button className="btn-submit text-white rounded-pill border border-light" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
+                        <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
                             Start Now
                         </button>
                     </div>
@@ -86,9 +87,9 @@ function Home() {
             {/* 
             --------------WRAPPER SECTION DISPLAYING TWO COLUMNS OF CONTENT--------------
             */}
-            <div className="wrapper-section">
+            <section className="wrapper-section">
                 <div className="wrapper-content">
-                    <div className="box1">Live a healthy life
+                    <div id="healthy-life">Live a healthy life
                         <p>
                             Nutrition is as important as exercise.
                             Our coaches ensure to give the neccesary
@@ -96,11 +97,10 @@ function Home() {
                             healthier lifestyle.
                         </p>
                         <img src={require('../../images/miguel-portrait.jpg')} alt="" />
-                       
                     </div>
-                    <div className="box2">Bootcamp Saturdays</div>
+                    <div id="bootcamp-saturday">Bootcamp Saturdays</div>
                 </div>
-            </div>
+            </section>
 
             {/* 
             --------------END OF WRAPPER SECTION--------------
