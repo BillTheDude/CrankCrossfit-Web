@@ -57,48 +57,57 @@ function Home() {
             {/* 
                 ----------START OF FIRST SECTION----------
              */}
-            <div className="first-section">
+            <section className="first-section section">
                 <div className="centered-text">    
                     <h2 style={{fontSize: "52px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
                     <p style={{fontSize:"24px"}}>Kendall's most fittest crossfit</p>
                     <div className="button-div">
-                        <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
+                        <button className="btn-submit text-white rounded-pill border-none" style={{fontSize: "20px", padding:"6px 18px", backgroundColor: "#ff4b40"}}>
                             Start Now
                         </button>
                     </div>
-                </div>
-]
-                
-            </div>
+                </div>  
+            </section>
 
             {/* 
                 ----------END OF FIRST SECTION----------
              */}
 
-            <div className="section second-section ">
+
+             {/* 
+                ----------START OF  SECTION----------
+             */}
+            <div className="section second-section">
                 <div id="content-second-section">
-                    <h2 style={{fontSize: "50px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
-                    <p style={{fontSize:"20px"}}>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
+                    <h2 style={{fontSize: "50px", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
+                    <p>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
                 </div>       
-                <img style={{width: "700px"}}src={require('../../images/group-pic1.jpg')} alt="group-pic-1" />
+                <img src={require('../../images/group-pic1.jpg')} alt="group-pic-1" />
         
             </div>
+             {/* 
+                ----------END OF SECOND SECTION----------
+             */}
 
             {/* 
             --------------WRAPPER SECTION DISPLAYING TWO COLUMNS OF CONTENT--------------
             */}
             <section className="wrapper-section">
-                <div className="wrapper-content">
-                    <div id="healthy-life">Live a healthy life
-                        <p>
+                <div className="wrap-media-content">
+                    <div id="healthy-life">
+                        <h2 className="subhead" style={{textTransform:"uppercase"}}>Live a healthy life</h2>
+                        <p className="wrap-paragraph-text">
                             Nutrition is as important as exercise.
                             Our coaches ensure to give the neccesary
                             nutritional help that will lead to a 
                             healthier lifestyle.
                         </p>
-                        <img src={require('../../images/miguel-portrait.jpg')} alt="" />
+                        <img className="gym-member-portrait"src={require('../../images/miguel-portrait.jpg')} alt="" />
                     </div>
-                    <div id="bootcamp-saturday">Bootcamp Saturdays</div>
+                    <div id="bootcamp-saturday">
+                        <h2 className="subhead" style={{textTransform:"uppercase"}}>Bootcamp Saturdays</h2>
+                        <p className="wrap-paragraph-text">This is a text</p>
+                    </div>
                 </div>
             </section>
 
@@ -106,6 +115,9 @@ function Home() {
             --------------END OF WRAPPER SECTION--------------
             */}
 
+            {/* 
+            --------------START OF THIRD SECTION--------------
+            */}
             <div className="section third-section">
                 <img src={require('../../images/gym1.jpeg')}style={{width: "750px",margin:"0"}} alt="more than a just img"/>
                 <div id="content-third-section">
@@ -113,6 +125,9 @@ function Home() {
                     <p>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
                 </div>
             </div>
+             {/* 
+            --------------END OF FOURTH SECTION--------------
+            */}
 
 
             {/* 
