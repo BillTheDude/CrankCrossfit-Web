@@ -117,7 +117,7 @@ NAVBAR ELEMENTS
     ---------START OF THIRD SECTION---------
     */
     .third-section {
-        background-color: #FF3A3A;
+        background-color: #db3333;
         color: white;
         margin: 0;
         height: 55vh;
@@ -186,6 +186,7 @@ NAVBAR ELEMENTS
     ------------START OF FIRST SECTION------------
     */
     .first-section{
+        display: flex;
         position: relative;
         text-align: center;
         color: white;
@@ -200,12 +201,17 @@ NAVBAR ELEMENTS
     }
     .first-section > p {
         text-align: center;
+        font-weight: 400;
         margin: 4px;
         padding: 12px;
     }
-    .button-div{
+    .button-div {
+        margin: 2.5em;
+    }
+    .button-div button{
         width: 150px;
-        height: 250px;
+        height: 50px;
+        padding: 4px;
         justify-content: center;
     }
     
@@ -217,15 +223,46 @@ NAVBAR ELEMENTS
             rgba(20,20,20, .5)),
             url('../../images/first-section-bkg.jpg');
     }
-    .button-div {
-        display: flex;
-        justify-content: center;
-    }
-    .button-div button {
-        border-color: none;
-    }
     /*
     ------------END OF FIRST SECTION------------
+    */
+
+
+     /*
+    ------------START OF SECOND SECTION------------
+    */
+    .second-section {
+        background-color: #EAEAEA;
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        height: 55vh;
+    }
+    #content-second-section {
+        margin: 1em;
+    }
+    #content-second-section h2 {
+        font-weight: 700;
+        margin: 8px;
+        padding: .5em;
+    }
+    #content-second-section > p {
+        font-size: 18px;
+        width:80%;
+        margin: 14px;       
+        padding: 1em;
+        text-align: justify;
+        word-wrap: break-word;
+        float: left;
+    }
+    .second-section > img {
+        width: 100%;
+        height: inherit !important;
+    
+    }
+
+    /*
+    ------------END OF SECOND SECTION------------
     */
 
     /*
@@ -327,27 +364,73 @@ NAVBAR ELEMENTS
         height: 100px;
     }
 }
+
+    /*
+    ------------START OF THIRD SECTION------------
+    */
+    .third-section{
+        background-color: #db3333;
+        color: white;
+        margin: 0;
+        height: 55vh;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .third-section > img  {
+        width: 125% !important;
+        height: inherit !important;
+    }
+    #content-third-section {
+        margin-top: 5%;
+        justify-content: center;
+        padding: 10px;
+    }
+    #content-third-section > h2 {
+        font-weight: 700;
+    }
+    #content-third-section > p {
+        margin-top: 2.5em;
+        font-size: 20px;
+        font-weight: 400;
+        width: 85%;
+    }
+    /*
+    ------------END OF THIRD SECTION------------
+    */
+
+    /*
+    ------------START OF FOURTH SECTION------------
+    */
     .fourth-section{
+        background-color: #EAEAEA;
         margin: 0;
         margin-top: 1em;
-        padding: 0px;
-        background-color: #EAEAEA;
+        height: 55vh;
     }
     #content-fourth-section {
-        margin-top: 5%;
-        margin-left: 2em;
-        padding: 4px;
+        margin: 1em;
+    }
+    #content-fourth-section > h2 {
+        font-weight: 700;
+        margin: 10px;
+        padding: .5em;
     }
     #content-fourth-section > p {
-        margin-top: 4em;
-        font-size: 22px;
-        width: 75%;
+        font-size: 18px;
+        width: 85%;
+        margin: 14px;
+        padding: 1em;
+        text-align: justify;
+        word-wrap: break-word;
+        float: left;
     }
     .fourth-section > img {
-        width: 80%;
-        height: 650px;
+        width: 105%;
+        height: inherit !important; 
     }
-    /*END OF FOURTH SECTION*/
+    /*
+    ------------END OF FOURTH SECTION------------
+    */
     
 }
 
