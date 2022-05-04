@@ -1,0 +1,25 @@
+h2 {
+    font-weight: 700;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    height: 200vh;
+}
+
+.coach-content {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    width: 75%;
+}
+
+.coach-content > p {
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 50%;
+    padding: 14px;
+}

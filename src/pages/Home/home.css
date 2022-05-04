@@ -1,9 +1,6 @@
 .btn-submit:hover {
     background-color: rgb(255, 123, 113) !important;
 }
-h2 {
-    font-weight: 500;
-}
 /*
 NAVBAR ELEMENTS
 */
@@ -29,12 +26,11 @@ NAVBAR ELEMENTS
      /*
     ------------START OF FIRST SECTION------------
     */
-    .first-section{
+    .first-section {
         display: flex;
         position: relative;
         text-align: center;
         color: white;
-        max-height: 100vh;
     }
     .first-section h2 {
         font-weight:800;
@@ -60,6 +56,7 @@ NAVBAR ELEMENTS
     }
     
     .centered-text{
+        color: white;
         max-height: 200vh;
         width: 100%;
         background: linear-gradient(
@@ -328,54 +325,6 @@ NAVBAR ELEMENTS
     ------------END OF WRAPPER SECTION------------
     */
 
-/*MAYBE MOBILE SCREEN RESOLUTION???*/
-@media screen and (max-width: 360px) {
-    .first-section > h2 {
-        font-size: 20px;
-    }
-    .section > img {
-        margin: 0;
-        max-height: 50%;
-        max-width: 25%;        
-    }
-    .second-section > img {
-        margin: 0;
-        max-width: 25%;
-    }
-
-    /*HEADINGS FONT*/
-    #content-second-section  > h2{
-        fontSize: 22px;
-        font-weight: 600;
-    }
-    #content-third-section > h2 {
-        font-size: 22px;
-        font-weight: 600;
-    }
-
-    /*FOURTH SECTION*/
-    .fourth-section{
-        margin: 0;
-        margin-top: 1em;
-        padding: 0;
-        
-    }
-    #content-fourth-section {
-        justify-items: center;
-
-    }
-    #content-fourth-section > h2{
-        font-size: 22px;
-
-    }
-    #content-fourth-section > p {
-        font-size: 16px;
-    }
-    .fourth-section > img {
-        width: 10%;
-        height: 100px;
-    }
-}
 
     /*
     ------------START OF THIRD SECTION------------
@@ -446,5 +395,57 @@ NAVBAR ELEMENTS
     
 }
 
+
+/*MAYBE MOBILE SCREEN RESOLUTION???*/
+@media screen and (max-width: 360px) {
+    .first-section {
+        color: white;
+    }
+    .first-section > h2 {
+        font-size: 20px;
+    }
+    .section > img {
+        margin: 0;
+        max-height: 50%;
+        max-width: 25%;        
+    }
+    .second-section > img {
+        margin: 0;
+        max-width: 25%;
+    }
+
+    /*HEADINGS FONT*/
+    #content-second-section  > h2{
+        fontSize: 22px;
+        font-weight: 600;
+    }
+    #content-third-section > h2 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    /*FOURTH SECTION*/
+    .fourth-section{
+        margin: 0;
+        margin-top: 1em;
+        padding: 0;
+        
+    }
+    #content-fourth-section {
+        justify-items: center;
+
+    }
+    #content-fourth-section > h2{
+        font-size: 22px;
+
+    }
+    #content-fourth-section > p {
+        font-size: 16px;
+    }
+    .fourth-section > img {
+        width: 10%;
+        height: 100px;
+    }
+}
 
 

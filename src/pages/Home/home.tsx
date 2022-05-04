@@ -15,7 +15,7 @@ function Home() {
                 <nav className="navbar navbar-expand-lg navbar-dark  " style={ {minHeight: "10%", height: "100%", backgroundColor:"#090B0B"}}>
                         <div className="container-fluid">
 
-                            <a className="navbar-brand" href="/">
+                            <a className="navbar-brand" href="/home">
                                 <img src={require('../../images/Logo/crankcrossfit-logo.jpg')} alt="gym logo"width="115" height="115"/>
                             </a>
                             <button
@@ -33,7 +33,7 @@ function Home() {
                             <div className="collapse navbar-collapse" id="navbarNav">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="/aboutus">About Us</a>
+                                    <a className="nav-link" aria-current="page" href="/aboutUs">About Us</a>
                                     </li>
                                     <li className="nav-item">
                                     <a className="nav-link" href="#">Schedule</a>
@@ -57,7 +57,7 @@ function Home() {
             {/* 
                 ----------START OF FIRST SECTION----------
              */}
-            <div className="first-section">
+            <section className="first-section">
                 <div className="centered-text">    
                     <h2 style={{fontSize: "48px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
                     <p style={{fontSize:"20px"}}>Kendall's most fittest crossfit</p>
@@ -67,20 +67,20 @@ function Home() {
                         </button>
                     </div>
                 </div> 
-            </div>
+            </section>
 
             {/* 
                 ----------END OF FIRST SECTION----------
              */}
 
-            <div className="section second-section ">
+            <section className="section second-section ">
                 <div id="content-second-section">
                     <h2 style={{fontSize: "48px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
                     <p>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
                 </div>       
                 <img src={require('../../images/group-pic1.jpg')} alt="group-pic-1" />
         
-            </div>
+            </section>
 
             {/* 
             --------------WRAPPER SECTION DISPLAYING TWO COLUMNS OF CONTENT--------------
@@ -104,25 +104,25 @@ function Home() {
             --------------END OF WRAPPER SECTION--------------
             */}
 
-            <div className="section third-section">
+            <section className="section third-section">
                 <img src={require('../../images/gym1.jpeg')}style={{width: "100%",margin:"0"}} alt="more than a just img"/>
                 <div id="content-third-section">
                     <h2 style={{fontSize: "48px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
                     <p>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
                 </div>
-            </div>
+            </section>
 
 
             {/* 
             --------------START OF FOURTH SECTION--------------
             */}
-            <div className="section fourth-section">
+            <section className="section fourth-section">
                 <div id="content-fourth-section">
                     <h2 style={{fontSize: "48px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>First Workout For Free</h2>
                     <p>Want to try out our gym or want to learn more about crossfit with us? We got you. Your first class is completely FREE. Come to the gym and let the coaches know!</p>
                 </div>
                 <img src={require('../../images/first_workout_free-image.jpg')} alt="" />
-            </div>
+            </section>
 
              {/* 
             --------------END OF FOURTH SECTION--------------
@@ -153,7 +153,7 @@ function Home() {
                                 <h5 className="text-uppercase">Links</h5>
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a href="#!" className="text-white">About Us</a>
+                                        <a href="/aboutUs" className="text-white">About Us</a>
                                     </li>
 
                                     <li>
@@ -161,11 +161,11 @@ function Home() {
                                     </li>
 
                                     <li>
-                                        <a href="#!" className="text-white">Get Started</a>
+                                        <a href="/getStarted" className="text-white">Get Started</a>
                                     </li>
                                     
                                     <li>
-                                        <a href="#!" className="text-white">Contact</a>
+                                        <a href="/contact" className="text-white">Contact</a>
                                     </li>
                                 </ul>
                             </div>
