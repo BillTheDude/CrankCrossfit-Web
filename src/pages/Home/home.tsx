@@ -59,8 +59,8 @@ function Home() {
              */}
             <section className="first-section">
                 <div className="centered-text">    
-                    <h2 style={{fontSize: "48px",fontStyle:"bolder", justifyContent:"center"}}>CRANK IT UP!</h2>
-                    <p style={{fontSize:"20px"}}>Kendall's most fittest crossfit</p>
+                    <h2 style={{fontSize: "48px",fontStyle:"bolder", justifyContent:"center", color: "white"}}>CRANK IT UP!</h2>
+                    <p style={{fontSize:"20px", color: "white"}}>Kendall's most fittest crossfit</p>
                     <div className="button-div">
                         <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
                             Start Now
