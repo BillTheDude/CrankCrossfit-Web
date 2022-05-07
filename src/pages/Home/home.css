@@ -387,10 +387,10 @@ NAVBAR ELEMENTS
     /*
     ------------END OF FOURTH SECTION------------
     */
+}
 
-    
-    /*IPHONE 12/13 PRO SCREEN DIMENSION*/
-    @media screen and (max-width: 390px){  
+/*IPHONE 12/13 PRO SCREEN DIMENSION*/
+@media screen and (max-width: 390px){  
         html, body{
             overflow-x: hidden;
         }
