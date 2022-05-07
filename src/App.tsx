@@ -9,7 +9,7 @@ import {
 
 import Home from './pages/Home/home';
 import AboutUs from './pages/AboutUs/aboutUs';
-import GetStarted from './pages/getStarted';
+import GetStarted from './pages/GetStarted/getStarted';
 import Contact from './pages/Contact/contact';
 
 function App() {

@@ -1,6 +1,6 @@
 import React from "react";
 import { url } from "inspector";
-import "./aboutUs.css";
+import "./getStarted.css";
 import "../../global.css";
 
 // Social Media Icons fontAwesome package
@@ -8,9 +8,9 @@ import { Library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons'
 
-function AboutUs(){
+function GetStarted(){
     return (
-        <div className="aboutUs">
+        <div className="getStarted">
             {/* 
         ------------START OF HEADER SECTION--------------
         */}
@@ -61,32 +61,16 @@ function AboutUs(){
         */}
 
 
-        <section className="coachs coach-section">
-            <div className="subsection coach-intro">
-                    <h2 style={{fontSize: "42px", fontWeight:"700",justifyContent:"center",textTransform: "uppercase"}}>Our Coaches</h2>
-                    <p>It’s all about technique. That is the motto from every Crank Crossfit coach. They are the most skillful, experienced, as well as the most friendiest coaches you will ever find on any gym.</p>
-            </div>
-
-            <div className="subsection coach-portrait">
-                <span>Coach 1</span>
-                <span>Coach 2</span>
-                <span>Coach 3</span>
-            </div>
+        <section className="getStartedSections ready-for-change">
+        <div>
+            <h2>Ready to make the change?</h2>
+            <p>Schedule your first class now. First class completely free!</p>
+        </div>
         </section>
 
 
         {/* START OF SECOND SECTION */}
         <section className="coachs coach-mission">
-            <div className="subsection about-missions">
-                <h2 style={{fontSize: "42px", fontWeight:"700",justifyContent:"center",textTransform: "uppercase"}}>Coach Mission</h2>
-                <p>Our coaches are always present before and during the workout. 
-                    To make sure they teach the important techniques in order
-                    to perform better on the main workout.
-                </p>
-                <div className="img-wrapper">
-                    <img src={require('../../images/group-pic3.jpg')} alt="group pic 3" />
-                </div>
-            </div>
         </section>
         {/* END OF SECOND SECTION */}
             {/* 
@@ -166,4 +150,4 @@ function AboutUs(){
     );
 }
 
-export default AboutUs;
+export default GetStarted;

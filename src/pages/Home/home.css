@@ -16,10 +16,6 @@ NAVBAR ELEMENTS
     border-radius: 50%;
 }
 
-/*
----------START OF FIRST SECTION---------
-*/
-
 /*DESKTOP DIMENSION*/
 @media screen and (max-width: 1920px) {
     .section {
@@ -85,6 +81,8 @@ NAVBAR ELEMENTS
         margin-top: 1em;
         margin-bottom: 1em;
         height: 55vh;
+        width: 100%;
+        align-items: center;
     }
     #content-second-section {
         margin: 1em;
@@ -105,7 +103,7 @@ NAVBAR ELEMENTS
         padding: 1em;
     }
     .second-section >  img {
-        width: 85%;
+        width: 95%;
         height: inherit;
         float: right;
     }
@@ -123,23 +121,27 @@ NAVBAR ELEMENTS
         height: 55vh;
         margin-top: 1em;
         margin-bottom: 1em;
+        /* justify-content: center; */
+        align-items: center;
     }
     #content-third-section {
+        margin: 1em;
         margin-left: 5em;
-        padding: 12px;
+        padding: 4px;
+      
     }
     #content-third-section > h2 {
         font-weight: 700;
     }
     #content-third-section > p {
         font-size: 22px;
-        width: 70%;
-        
+        width: 90%;
+        margin-top: 2em;
     }
     .third-section > img {
-        width: 100%;
+        width: 100% !important;
         height: inherit;
-        float: left;
+        
     }
     
 
@@ -166,8 +168,11 @@ NAVBAR ELEMENTS
         font-size: 22px;
         width: 75%;
     }
+    #content-fourth-section > h2 {
+        font-weight: 700;
+    }
     .fourth-section > img {
-        width: 80%;
+        width: 100%;
         height: 650px;
     }
     /*END OF FOURTH SECTION*/
@@ -386,156 +391,247 @@ NAVBAR ELEMENTS
     }
     /*
     ------------END OF FOURTH SECTION------------
-    */
+    */   
 }
 
 /*IPHONE 12/13 PRO SCREEN DIMENSION*/
 @media screen and (max-width: 390px){  
-        html, body{
-            overflow-x: hidden;
-        }
-        body{
-            position: relative;
-        }
-        .section {
-            margin: 0;
-            display: block;
-        }
-        /*
-        ------------NAVBAR SECTION------------
-        */
-        .nav-header {
-            height: 150px !important;
-        }
-        .navbar {
-            position: relative;
-            height: inherit;
-        }
-        .navbar-brand {
-            position: absolute;
-            left: 50%;
-            margin-left: -50px;
-            display: block;
-        }
-        .navbar-brand > img {
-            width: 100px !important;
-            height: auto;
-        }
-        /*
-        ------------END OF NAVBAR SECTION------------
-        */
-
-        /*
-        ------------START OF FIRST SECTION------------
-        */
-        .first-section {
-            height: 45vh !important;
-        }
-        .centered-text > h2 {
-            font-size: 38px !important;
-        }
-        .centered-text > p {
-            font-size: 18px !important;
-            font-weight: 300 !important;
-        }
-        .button-div {
-            margin-top: 3em;
-        }
-        .button-div button{
-            width: 150px;
-            height: 50px;
-            margin: 14px;
-            justify-content: center;
-            border-color: #ff4b40 !important;
-        }
-        /*
-        ------------END OF FIRST SECTION------------
-        */
-
-        /*
-        ------------START OF SECOND SECTION------------
-        */
-        .second-section{
-            margin: 0;
-            margin-top: 1em;
-            margin-bottom: 1em;
-            height: 45vh;
-            justify-content: center;
-            align-items: center;
-        }
-        #content-second-section {
-            margin: 2em;
-        }
-        #content-second-section  h2{
-            font-size: 30px !important;
-            font-weight: 700;
-            text-align: center;
-            margin: 4px;
-            padding: 4px;
-        }   
-        #content-second-section > p{
-            font-size: 16px !important;
-            width:90%;
-            text-align: center;
-            align-items: center;
-        }
-        .second-section >  img {
-            width: 100%;
-            height: auto !important;
-        }
-
+    html, body{
+        overflow-x: hidden;
     }
-
-    /*MAYBE MOBILE SCREEN RESOLUTION???*/
-@media screen and (max-width: 360px) {
-    .first-section > h2 {
-        font-size: 20px;
+    body{
+        position: relative;
     }
-    .section > img {
+    .section {
         margin: 0;
-        max-height: 50%;
-        max-width: 25%;        
+        display: block;
     }
-    .second-section > img {
-        margin: 0;
-        max-width: 25%;
+    /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 150px !important;
     }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ------------END OF NAVBAR SECTION------------
+    */
 
-    /*HEADINGS FONT*/
-    #content-second-section  > h2{
-        font-size: 22px;
-        font-weight: 600;
+    /*
+    ------------START OF FIRST SECTION------------
+    */
+    .first-section {
+        height: 45vh !important;
     }
-    #content-third-section > h2 {
-        font-size: 22px;
-        font-weight: 600;
+    .centered-text > h2 {
+        font-size: 38px !important;
     }
+    .centered-text > p {
+        font-size: 18px !important;
+        font-weight: 300 !important;
+    }
+    .button-div {
+        margin-top: 3em;
+    }
+    .button-div button{
+        width: 150px;
+        height: 50px;
+        margin: 14px;
+        justify-content: center;
+        border-color: #ff4b40 !important;
+    }
+    /*
+    ------------END OF FIRST SECTION------------
+    */
 
-    /*FOURTH SECTION*/
-    .fourth-section{
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+    .second-section{
+        background-color: white;
         margin: 0;
         margin-top: 1em;
-        padding: 0;
-        
+        margin-bottom: 1em;
+        height: 45vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #content-second-section {
+        margin: 2em;
+    }
+    #content-second-section  h2{
+        font-size: 28px !important;
+        font-weight: 700;
+        text-align: center;
+        margin: 4px;
+        padding: 4px;
+    }   
+    #content-second-section > p{
+        font-size: 14px !important;
+        width:90%;
+        text-align: center;
+        align-items: center;
+    }
+    .second-section >  img {
+        width: 100%;
+        height: auto !important;
+    }
+    /*
+    ------------END OF SECOND SECTION------------
+    */
+
+    /*
+    ------------START OF WRAPPER SECTION------------
+    */
+    .wrapper-content {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    #healthy-life > h2 {
+        font-size: 28px !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #healthy-life > p{
+        font-size: 14px !important;
+        font-weight: 400;
+        width:85%;
+        text-align: center;
+        align-items: center;
+    }
+    #healthy-life > img {
+        width: 100%;
+        height: 350px;
+    }
+
+    #bootcamp-saturday {
+        margin: 0;
+        margin-top: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+    #bootcamp-saturday > h2 {
+        font-size: 28px !important;
+        font-weight: 700;
+        text-align: center;
+    }
+    #bootcamp-saturday > p {
+        font-size: 14px !important;
+        font-weight: 400;
+        width:75%;
+        text-align: center;
+        align-items: center;
+    }
+
+    /*
+    ------------END OF WRAPPER SECTION------------
+    */
+
+    /*
+    ------------START OF THIRD SECTION------------
+    */
+    .third-section {
+        background-color: white;
+        color: black;
+        margin: 0;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        height: 45vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .third-section >  img {
+        width: 100%;
+        height: auto !important;
+    }
+    #content-third-section {
+        margin: 2em;
+    }
+    #content-third-section h2{
+        font-size: 26px !important;
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+        margin: 4px;
+        padding: 4px;
+    }
+    #content-third-section > p{
+        font-size: 14px !important;
+        width:90%;
+        text-align: center;
+        align-items: center;
+    }
+    /*
+    ------------END OF THIRD SECTION------------
+    */
+
+    /*
+    ------------START OF FOURTH SECTION------------
+    */
+    .fourth-section {
+        background-color: white;
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 0;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .fourth-section >  img {
+        width: 100%;
+        height: 375px !important;
     }
     #content-fourth-section {
-        justify-items: center;
+        margin: 2em;
+    }
+    #content-fourth-section  h2{
+        width: 100%;
+        font-size: 26px !important;
+        font-weight: 700;
+        text-align: center;
+        margin: 4px;
+        padding: 4px;
+    }   
+    #content-fourth-section > p{
+        font-size: 14px !important;
+        width:90%;
+        text-align: center;
+        align-items: center;
+    }
+    /*
+    ------------END OF FOURTH  SECTION------------
+    */
 
-    }
-    #content-fourth-section > h2{
-        font-size: 22px;
+    /*
+    ------------FOOTER SECTION------------
+    */
 
+    .footer-section{
+        font-size: 14px;
     }
-    #content-fourth-section > p {
-        font-size: 16px;
+    .footer-section > .text-center{
+        font-size: 8px;
+        text-align: center;
     }
-    .fourth-section > img {
-        width: 10%;
-        height: 100px;
-    }
+
+
 }
-    
-}
+
 
 
 

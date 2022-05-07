@@ -3,6 +3,10 @@ import React from "react";
 import "./home.css";
 import "../../global.css";
 
+// Social Media Icons fontAwesome package
+import { Library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons'
 function Home() {
     return (
         <div className="home">
@@ -78,7 +82,7 @@ function Home() {
                     <h2 style={{fontSize: "48px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
                     <p>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
                 </div>       
-                <img src={require('../../images/group-pic1.jpg')} alt="group-pic-1" />
+                <img src={require('../../images/crossfit_all_levels-image.jpg')} alt="group-pic-1" />
         
             </section>
 
@@ -87,7 +91,8 @@ function Home() {
             */}
             <section className="wrapper-section">
                 <div className="wrapper-content">
-                    <div id="healthy-life">Live a healthy life
+                    <div id="healthy-life">
+                        <h2 style={{fontSize: "38px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>Live a healthy life</h2>
                         <p>
                             Nutrition is as important as exercise.
                             Our coaches ensure to give the neccesary
@@ -96,7 +101,10 @@ function Home() {
                         </p>
                         <img src={require('../../images/miguel-portrait.jpg')} alt="" />
                     </div>
-                    <div id="bootcamp-saturday">Bootcamp Saturdays</div>
+                    <div id="bootcamp-saturday">
+                        <h2 style={{fontSize: "38px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>Bootcamp Saturdays</h2>
+                        <p>This is some text</p>
+                     </div>
                 </div>
             </section>
 
@@ -105,7 +113,7 @@ function Home() {
             */}
 
             <section className="section third-section">
-                <img src={require('../../images/gym1.jpeg')}style={{width: "100%",margin:"0"}} alt="more than a just img"/>
+                <img src={require('../../images/group-pic1.jpg')}style={{width: "100%",margin:"0"}} alt="more than a just img"/>
                 <div id="content-third-section">
                     <h2 style={{fontSize: "48px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
                     <p>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
@@ -174,15 +182,19 @@ function Home() {
                                 <h5 className="text-uppercase mb-0">FOLLOW US</h5>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                                        ><i className="fab fa-facebook-f"></i
-                                        ></a>           
+                                        <a className="btn btn-outline-light btn-floating m-1" href="#!"
+                                        >
+                                            <FontAwesomeIcon icon={faFacebookF} />
+                                        
+                                        </a>      
+                                             
                                     </li>
 
                                     <li>
                                         <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/therealcrankcrossfit/?hl=en" role="button"
-                                        ><i className="fab fa-instagram"></i
-                                        ></a>
+                                        >
+                                          <FontAwesomeIcon icon={faInstagram}/>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
