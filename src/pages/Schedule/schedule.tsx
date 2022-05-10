@@ -60,7 +60,7 @@ function Schedule() {
         */}
 
         {/* START OF FIRST SECTION */}
-        <section className="schedule-first-section ready-to-change">
+        <section className="section schedule-first-section ready-to-change">
             <div className="ready-to-change-content">
                 <h2 style={{fontSize: "48px",fontWeight:"700", justifyContent:"center", color: "white", textTransform:"uppercase"}}>Ready to make the change?</h2>
                 <p>Schedule your first class now. First class completely free!</p>
@@ -74,7 +74,7 @@ function Schedule() {
         {/* END OF FIRST SECTION */}
 
         {/* START OF SECOND SECTION - WRAPPER SECTION WITH CLASS HOURS*/}
-        <section className="schedule-second-section class-hours">
+        <section className="section schedule-second-section class-hours">
             <h2 style={{fontWeight:"700" ,textTransform:"uppercase"}}>Classes</h2>
             <p style={{fontWeight: "400"}}>(Mon-Fri)</p>
             <div className="class-hours-wrapper">
@@ -97,7 +97,7 @@ function Schedule() {
         {/* END OF SECOND SECTION */}
 
         {/* START OF THIRD SECTION*/}
-        <section className="schedule-third-section bootcamp-saturday">
+        <section className="section schedule-third-section bootcamp-saturday">
             <div className="bootcamp-content">
                 <h2 style={{fontSize: "48px",fontWeight: "700",textTransform:"uppercase"}}>BootCamp Saturdays</h2>
                 <p>This saturday classes focusses on a more intense mobility and cardio workout. You are welcome to join every Saturday at 10am.</p>
@@ -117,7 +117,7 @@ function Schedule() {
         
         {/* END OF FOURTH SECTION */}
 
-        <section className="gym-form-section">
+        <section className="section gym-form-section">
             <h2>Have Questions?</h2>
                 <form>
                             <div className="form-row">
