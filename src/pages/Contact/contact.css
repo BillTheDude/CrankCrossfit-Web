@@ -1,0 +1,61 @@
+.btn-submit:hover {
+    background-color: rgb(255, 123, 113) !important;
+}
+h2 {
+    font-weight: 500;
+}
+
+/*DESKTOP DIMENSION*/
+
+@media screen and (max-width: 1920px) {
+    
+    /*
+    ------------START OF FIRST SECTION------------
+    */
+    
+    .contactUs-first-section {
+        background-color: #252525;
+        color: white;
+        height: 45vh;
+        display: grid;
+        place-items: center;
+        /* justify-content: center; */
+        text-align: center;
+    }
+    .apply-now-content > p{
+        margin-top: 12px;
+        font-size: 20px;
+    }
+
+    .contactUs-button-div button {
+        width: 150px;
+        height: 50px;
+        margin-top: -5em;
+        border-width: 0px !important;
+        border: none !important;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    /*
+    ------------END OF FIRST SECTION------------
+    */
+    
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+
+    .contactUs-second-section {
+        background-color: #db3333;
+        color: white;
+        height: 45vh;
+        display: grid;
+        /* place-items: center; */
+        text-align: center;
+    }
+     /*
+    ------------END OF SECOND SECTION------------
+    */
+    
+}

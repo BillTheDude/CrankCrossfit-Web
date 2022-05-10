@@ -40,7 +40,7 @@ function Home() {
                                     <a className="nav-link" aria-current="page" href="/aboutUs">About Us</a>
                                     </li>
                                     <li className="nav-item">
-                                    <a className="nav-link" href="#">Schedule</a>
+                                    <a className="nav-link" href="/schedule">Schedule</a>
                                     </li>
                                     <li className="nav-item">
                                     <a className="nav-link" href="/getStarted">Get Started</a>
@@ -61,16 +61,16 @@ function Home() {
             {/* 
                 ----------START OF FIRST SECTION----------
              */}
-            <section className="first-section">
-                <div className="centered-text">    
+            <section className="first-section home-first-section">
+                <div className="welcome-crankcrossfit">    
                     <h2 style={{fontSize: "48px",fontStyle:"bolder", justifyContent:"center", color: "white"}}>CRANK IT UP!</h2>
                     <p style={{fontSize:"20px", color: "white"}}>Kendall's most fittest crossfit</p>
-                    <div className="button-div">
+                </div>
+                    <div className="welcome-button-div button-div">
                         <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
                             Start Now
                         </button>
                     </div>
-                </div> 
             </section>
 
             {/* 
@@ -82,7 +82,7 @@ function Home() {
                     <h2 style={{fontSize: "48px", fontStyle:"bolder", justifyContent:"center",textTransform:"uppercase"}}>Crossfit for all levels</h2>
                     <p>Whether you’re a beginner at Crossfit or you’re experienced in it, Crossfit has no boundaries for anyone who wants to stay fit and live a healthy life.</p>
                 </div>       
-                <img src={require('../../images/crossfit_all_levels-image.jpg')} alt="group-pic-1" />
+                <img src={require('../../images/crossfit-working-out-desktop.png')} alt="group-pic-1" />
         
             </section>
 
@@ -92,18 +92,19 @@ function Home() {
             <section className="wrapper-section">
                 <div className="wrapper-content">
                     <div id="healthy-life">
-                        <h2 style={{fontSize: "38px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>Live a healthy life</h2>
+                        <h2 style={{fontSize: "36px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>Live a healthy life</h2>
                         <p>
                             Nutrition is as important as exercise.
                             Our coaches ensure to give the neccesary
                             nutritional help that will lead to a 
                             healthier lifestyle.
                         </p>
-                        <img src={require('../../images/miguel-portrait.jpg')} alt="" />
+                        <img src={require('../../images/miguel-portrait-desktop.png')} alt="" />
                     </div>
                     <div id="bootcamp-saturday">
-                        <h2 style={{fontSize: "38px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>Bootcamp Saturdays</h2>
-                        <p>This is some text</p>
+                        <h2 style={{fontSize: "36px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>Bootcamp Saturdays</h2>
+                        <p>Want to challenge yourself a little more? Come join our Satudays bootcamp workout at 10am</p>
+                        <img src={require('../../images/sat-group-pic1-desktop.png')} alt="" />
                      </div>
                 </div>
             </section>
@@ -113,7 +114,7 @@ function Home() {
             */}
 
             <section className="section third-section">
-                <img src={require('../../images/group-pic1.jpg')}style={{width: "100%",margin:"0"}} alt="more than a just img"/>
+                <img src={require('../../images/gym-group-pic1-desktop.png')}style={{width: "100%",margin:"0"}} alt="more than a just img"/>
                 <div id="content-third-section">
                     <h2 style={{fontSize: "48px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>More than just a gym</h2>
                     <p>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
@@ -129,7 +130,7 @@ function Home() {
                     <h2 style={{fontSize: "48px", fontStyle:"bolder",justifyContent:"center",textTransform: "uppercase"}}>First Workout For Free</h2>
                     <p>Want to try out our gym or want to learn more about crossfit with us? We got you. Your first class is completely FREE. Come to the gym and let the coaches know!</p>
                 </div>
-                <img src={require('../../images/first_workout_free-image.jpg')} alt="" />
+                <img src={require('../../images/crossfit-all-levels-desktop.png')} alt="" />
             </section>
 
              {/* 

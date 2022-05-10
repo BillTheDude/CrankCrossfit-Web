@@ -42,7 +42,7 @@ function GetStarted(){
                                 <a className="nav-link" aria-current="page" href="/aboutus">About Us</a>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link" href="#">Schedule</a>
+                                <a className="nav-link" href="/schedule">Schedule</a>
                                 </li>
                                 <li className="nav-item">
                                 <a className="nav-link" href="/getStarted">Get Started</a>

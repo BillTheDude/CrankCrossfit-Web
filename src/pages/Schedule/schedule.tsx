@@ -1,16 +1,15 @@
 import React from "react";
-import { url } from "inspector";
-import "./aboutUs.css";
 import "../../global.css";
+import "../../pages/Schedule/schedule.css"
 
-// Social Media Icons fontAwesome package
 import { Library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons';
 
-function AboutUs(){
+
+function Schedule() {
     return (
-        <div className="aboutUs">
+        <div className="schedule">
             {/* 
         ------------START OF HEADER SECTION--------------
         */}
@@ -60,39 +59,96 @@ function AboutUs(){
         ------------END OF HEADER SECTION--------------
         */}
 
-
-        <section className="coachs coach-section">
-            <div className="subsection coach-intro">
-                    <h2 style={{fontSize: "42px", fontWeight:"700",justifyContent:"center",textTransform: "uppercase"}}>Our Coaches</h2>
-                    <p>It’s all about technique. That is the motto from every Crank Crossfit coach. They are the most skillful, experienced, as well as the most friendiest coaches you will ever find on any gym.</p>
-            </div>
-
-            <div className="subsection coach-portrait">
-                <span>Coach 1</span>
-                <span>Coach 2</span>
-                <span>Coach 3</span>
+        {/* START OF FIRST SECTION */}
+        <section className="schedule-first-section ready-to-change">
+            <div className="ready-to-change-content">
+                <h2 style={{fontSize: "48px",fontWeight:"700", justifyContent:"center", color: "white", textTransform:"uppercase"}}>Ready to make the change?</h2>
+                <p>Schedule your first class now. First class completely free!</p>
+                <div className="button-div">
+                    <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
+                            Schedule
+                    </button>
+                </div>
             </div>
         </section>
+        {/* END OF FIRST SECTION */}
 
-
-        {/* START OF SECOND SECTION */}
-        <section className="coachs coach-mission">
-            <div className="subsection about-missions">
-                <h2 style={{fontSize: "42px", fontWeight:"700",justifyContent:"center",textTransform: "uppercase"}}>Coach Mission</h2>
-                <p>Our coaches are always present before and during the workout. 
-                    To make sure they teach the important techniques in order
-                    to perform better on the main workout.
-                </p>
-                <div className="img-wrapper">
-                    <img src={require('../../images/group-pic3.jpg')} alt="group pic 3" />
+        {/* START OF SECOND SECTION - WRAPPER SECTION WITH CLASS HOURS*/}
+        <section className="schedule-second-section class-hours">
+            <h2 style={{fontWeight:"700" ,textTransform:"uppercase"}}>Classes</h2>
+            <p style={{fontWeight: "400"}}>(Mon-Fri)</p>
+            <div className="class-hours-wrapper">
+                <div className="morning-class">
+                    <h3 style={{fontWeight:"700" ,textTransform:"uppercase"}}>Morning Classes</h3>
+                    <p>5:00am - 6:00am</p>
+                    <p>6:00am - 7:00am</p>
+                    <p>7:00am - 8:00am</p>
+                    <p>8:00am - 9:00am</p>
+                </div>
+                <div className="evening-class">
+                    <h3 style={{fontWeight:"700" ,textTransform:"uppercase"}}>Evening Classes</h3>
+                    <p>4:00pm - 5:00pm</p>
+                    <p>5:00pm - 6:00pm</p>
+                    <p>6:00pm - 7:00pm</p>
+                    <p>7:00pm - 8:00pm</p>
                 </div>
             </div>
         </section>
         {/* END OF SECOND SECTION */}
-            {/* 
-                ------------START OF FOOTER SECTION--------------
-                */}
-                <section className="footer-section">
+
+        {/* START OF THIRD SECTION*/}
+        <section className="schedule-third-section bootcamp-saturday">
+            <div className="bootcamp-content">
+                <h2 style={{fontSize: "48px",fontWeight: "700",textTransform:"uppercase"}}>BootCamp Saturdays</h2>
+                <p>This saturday classes focusses on a more intense mobility and cardio workout. You are welcome to join every Saturday at 10am.</p>
+            </div>
+            <img src={require('../../images/sat-group-pic2-desktop.png')} alt="" />
+        </section>
+        {/* END OF THIRD SECTION */}
+
+        {/* START OF FOURTH SECTION*/}
+        <section className="schedule-fourth-section early-sat-class">
+            <div className="sat-class-content">
+                <h2 style={{fontSize: "48px",fontWeight: "700",textTransform:"uppercase"}}>Technique Session</h2>
+                <p>It’s all about the technique. This session mainly focuses on practicing and help building a strong core technique movements that leads better performance. Join us every Saturday at 8:30am.</p>
+            </div>
+            <img src={require('../../images/group-technique.png')}/>
+        </section>
+        
+        {/* END OF FOURTH SECTION */}
+
+        <section className="gym-form-section">
+            <h2>Have Questions?</h2>
+                <form>
+                            <div className="form-row">
+                                <div className="form-group col-md-6">
+                                        <label htmlFor="inputEmail4">Enter Name</label>
+                                        <input type="email" className="form-control" id="inputEmail4" placeholder="Name" />
+                                </div>
+                                <div className="form-group col-md-6">
+                                    <label htmlFor="inputPhoneNumber">Label</label>
+                                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"className="form-control" id="inputPassword4" placeholder="Phone Number" />
+                                </div>
+                            </div>
+                            <div className="form-group">
+                                <input type="text" className="form-control" id="inputAddress" placeholder="Email" />
+                            </div>
+                         
+                            <div className="form-row">
+                                <div className="form-group col-md-6">
+                                    <label htmlFor="inputCity">City</label>
+                                    <textarea className="form-control" cols={25} rows={5} placeholder="Enter comments..."></textarea>
+                                </div>
+                              
+                            </div>
+                            <button type="submit" className="btn btn-primary">Submit</button>
+                    </form>
+                </section>
+
+        {/* 
+        ------------START OF FOOTER SECTION--------------
+        */}
+        <section className="footer-section">
                     <footer className="text-white text-center text-md-start " style={{backgroundColor:"#090B0B"}}>
                     
                         <div className="container p-4">
@@ -158,12 +214,13 @@ function AboutUs(){
                         </div>
                     
                     </footer>
-                </section>
-                {/* 
-                ------------END OF FOOTER SECTION--------------
-                */}
-        </div>
+         </section>
+        {/* 
+        ------------END OF FOOTER SECTION--------------
+        */}
+    </div>
     );
 }
 
-export default AboutUs;
+
+export default Schedule
