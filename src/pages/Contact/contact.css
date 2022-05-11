@@ -128,3 +128,210 @@ a:hover{
     ------------END OF SECOND SECTION------------
     */
 }
+
+@media screen and (max-width: 1024px) {
+    
+     /*
+    ---------START OF FIRST SECTION---------
+    */
+    .contactUs-first-section {
+        display: grid;
+        height: 45vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    .register-now-content > h2 {
+        font-size: 36px !important;
+    }
+    
+    .register-now-content > p {
+        font-size: 15px;
+        margin-top: 1em;
+    }
+    .contactUs-button-div button {
+        width: 150px;
+        height: 50px;
+        margin-top: -3em !important;
+        border-width: 0px !important;
+        border: none !important;
+        align-items: center;
+        text-align: center;
+    }
+     /*
+    ---------END OF FIRST SECTION---------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+
+    /*
+    ---------START OF SECOND SECTION---------
+    */
+    .contactUs-second-section {
+        background-color: #db3333;
+        color: white;
+        height: 45vh;
+        display: grid;
+        text-align: center;
+    }
+
+    .follow-us-content > h2 {
+        font-size: 36px !important;
+        font-weight: 700;
+    }
+    .follow-us-content > p {
+        font-size: 15px;
+    }
+    /*
+    ---------END OF SECOND SECTION---------
+    */
+    .subhead > h2{
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 1.5em;
+        font-size: 36px !important;
+    }
+    
+    .button-div > button{
+        width: 150px !important;
+        height: 50px;
+    }
+    form {
+        margin-top: 1.5em;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2em;
+    }   
+    /*
+    ------------END OF FORM SECTION------------
+    */
+}
+
+@media screen and (max-width: 493px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .contactUs-first-section {
+        display: grid;
+        height: 45vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    .register-now-content > h2 {
+        font-size: 24px !important;
+    }
+    
+    .register-now-content > p {
+        font-size: 15px;
+        margin-top: 1em;
+    }
+    .contactUs-button-div button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 18px !important;
+        width: 120px !important;
+        height: 45px !important;
+        /* width: 150px;
+        height: 50px;
+        margin-top: -3em !important;
+        border-width: 0px !important;
+        border: none !important; */
+        align-items: center;
+        text-align: center;
+    }
+     /*
+    ---------END OF FIRST SECTION---------
+    */
+
+     /*
+    ---------START OF SECOND SECTION---------
+    */
+    .contactUs-second-section {
+        background-color: #db3333;
+        color: white;
+        height: 45vh;
+        display: grid;
+        text-align: center;
+    }
+    .follow-us-content {
+        margin-top: 1em;
+    }
+
+    .follow-us-content > h2 {
+        font-size: 24px !important;
+        font-weight: 700;
+    }
+    .follow-us-content > p {
+        font-size: 15px;
+    }
+    /*
+    ---------END OF SECOND SECTION---------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+
+    .subhead > h2{
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px !important;
+    }
+    
+    .button-div > button{
+        width: 150px !important;
+        height: 50px;
+    }
+    form {
+        margin-top: 1.5em;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2em;
+    }   
+    /*
+    ------------END OF FORM SECTION------------
+    */
+}
