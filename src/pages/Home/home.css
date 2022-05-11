@@ -634,6 +634,7 @@ NAVBAR ELEMENTS
 
 /*IPHONE 12/13 PRO SCREEN DIMENSION*/
 @media screen and (max-width: 390px){  
+
     html, body{
         overflow-x: hidden;
     }
@@ -680,7 +681,7 @@ NAVBAR ELEMENTS
         background: url('../../images/crossfit-welcome-bkg-desktop.png');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 50vh;
+        height: 45vh;
     }
     
     .welcome-crankcrossfit > h2 {
@@ -693,10 +694,10 @@ NAVBAR ELEMENTS
     .button-div {
         margin-top: 3em;
     }
-    .button-div button{
-        width: 150px;
-        height: 50px;
-        margin: 14px;
+    .button-div > button{
+        width: 50px !important;
+        height: 40px;
+        margin: 10px;
         justify-content: center;
         border-color: #ff4b40 !important;
     }
@@ -720,14 +721,14 @@ NAVBAR ELEMENTS
         margin: 2em;
     }
     #content-second-section  h2{
-        font-size: 28px !important;
+        font-size: 23px !important;
         font-weight: 700;
         text-align: center;
         margin: 4px;
         padding: 4px;
     }   
     #content-second-section > p{
-        font-size: 14px !important;
+        font-size: 11px !important;
         width:90%;
         text-align: center;
         align-items: center;
