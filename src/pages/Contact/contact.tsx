@@ -61,7 +61,7 @@ function ContactUs() {
 
         {/* START OF FIRST SECTION*/}
         <section className="contactUs-first-section ready-apply">
-            <div className="apply-now-content">
+            <div className="register-now-content">
                 <h2 style={{fontSize: "48px",fontWeight: "700",textTransform:"uppercase"}}>Ready to make your first step?</h2>
                 <p>First class completely free!</p>
             </div>
@@ -86,7 +86,7 @@ function ContactUs() {
        {/* START OF FORM SECTION*/}
        <section className="gym-form-section">
             <div className="subhead">
-                <h2>Have Questions?</h2>
+                <h2 style={{fontSize:"42px"}}>Have Questions?</h2>
             </div>
             <form>
                             <div className="row">

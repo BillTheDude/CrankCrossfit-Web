@@ -30,7 +30,7 @@ a:hover{
         text-align: center;
     }
     
-    .apply-now-content > p{
+    .register-now-content > p{
         margin-top: 12px;
         font-size: 20px;
     }
@@ -82,10 +82,10 @@ a:hover{
         text-align: center;
     }
     
-    .apply-now-content > h2 {
+    .register-now-content > h2 {
         font-size: 42px !important;
     }
-    .apply-now-content > p{
+    .register-now-content > p{
         margin-top: 12px;
         font-size: 18px;
     }

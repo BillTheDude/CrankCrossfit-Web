@@ -37,6 +37,17 @@ a:hover{
         font-size: 18px;
         margin-top: 1em;
     }
+    .schedule-first-section  button {
+        border-width: 0px !important;
+        border: none !important;
+    }
+    .schedule-first-section > .button-div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: -8em;
+    }
     /*
     ---------END OF FIRST SECTION---------
     */
@@ -167,6 +178,31 @@ a:hover{
     }
     /*
     ------------END OF FOURTH SECTION------------
+    */
+
+     /*
+    ------------START OF FORM SECTION------------
+    */
+    .subhead > h2{
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 1em;
+    }
+    
+    .button-div > button{
+        width: 150px !important;
+        height: 50px;
+    }
+    form {
+        margin-top: 1.5em;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2em;
+    }   
+    /*
+    ------------END OF FORM SECTION------------
     */
 }
 
@@ -371,5 +407,705 @@ a:hover{
 ------------DESKTOP SCREEN SIZE - LAPTOP (1024px)------------
 */
 @media screen and (max-width: 1024px){
+    .section {
+        display: flex;
+        margin: 0;
+        height: 50vh;
+    }
+     /*
+    ---------START OF FIRST SECTION---------
+    */
+    .schedule-first-section {
+        display: grid;
+        height: 45vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 13%, rgba(34,34,34,1) 100%);
+        color: white;
 
+    }
+    .ready-to-change-content > h2 {
+        font-size: 36px !important;
+    } 
+    .schedule-first-section  button {
+        border-width: 0px !important;
+        border: none !important;
+    }
+    .schedule-first-section > .button-div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: -3em;
+    }
+    .ready-to-change-content > p {
+        font-size: 15px;
+        margin-top: 1em;
+    }
+    /*
+    ---------END OF FIRST SECTION---------
+    */
+
+     /*
+    ---------START OF SECOND SECTION---------
+    */
+    .schedule-second-section{
+        display: grid;
+        place-items: center;
+        background-color: #F5F5F5;
+        height: 82vh;
+
+    }
+    .schedule-second-section > h2 {
+        font-size: 36px !important;
+        margin: 12px;
+        padding: 4px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .schedule-second-section > p {
+        margin: 0;
+        font-size: 15px;
+    }
+    .class-hours-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 2em;
+    }
+    .class-hours-wrapper p {
+        margin: 0;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .class-hours-wrapper h3 {
+        margin-bottom: 15px;
+        font-size: 28px;
+    }
+    .morning-class {
+        padding: 2.5em;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+        margin-right: 2em;
+        border-radius: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .evening-class {
+        padding: 2.5em;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+        margin-left: 2em;
+        border-radius: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+     /*
+    ---------END OF SECOND SECTION---------
+    */
+
+    
+    /*
+    ------------START OF THIRD SECTION------------
+    */
+    .schedule-third-section {
+        background-color: #db3333;
+        color: white;
+        display: flex;
+        margin: 0;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .bootcamp-content {
+        margin: 0;
+        margin-left: 3em;
+    }
+    .bootcamp-content > h2 {
+        margin-bottom: .5em;
+        font-size: 36px !important;
+    }
+    .bootcamp-content > p {
+        width: 75%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .bootcamp-saturday img{
+        width: 50%;     
+        height: inherit;
+    }
+    /*
+    ------------END OF THIRD SECTION------------
+    */
+
+    /*
+    ------------START OF FOURTH SECTION------------
+    */
+    .schedule-fourth-section {
+        background-color: #1F1F1F;
+        color: white;
+        display: flex;
+        margin: 0;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .sat-class-content {
+        margin: 0;
+        margin-left: -2em;
+        /* padding-left: 5em; */
+    }
+    .sat-class-content > h2 {
+        margin-bottom: .5em;
+        font-size: 36px !important;
+    }
+    .sat-class-content > p {
+        width: 90%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .early-sat-class > img {
+        width: 50%;
+        height: inherit;
+    }
+    /*
+    ------------END OF FOURTH SECTION------------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+    .subhead > h2{
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 1.5em;
+        font-size: 36px !important;
+    }
+    
+    .button-div > button{
+        width: 150px !important;
+        height: 50px;
+    }
+    form {
+        margin-top: 1.5em;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2em;
+    }   
+    /*
+    ------------END OF FORM SECTION------------
+    */
+}
+
+@media screen and (max-width: 768px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .schedule-first-section {
+        display: grid;
+        height: 40vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 13%, rgba(34,34,34,1) 100%);
+        color: white;
+
+    }
+    .ready-to-change-content > h2 {
+        font-size: 30px !important;
+    } 
+    .schedule-first-section  button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 18px !important;
+        width: 125px !important;
+        height: 50px !important;
+    }
+    .schedule-first-section > .button-div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: -6em;
+    }
+    .ready-to-change-content > p {
+        font-size: 14px;
+        margin-top: 1em;
+    }
+    /*
+    ---------END OF FIRST SECTION---------
+    */
+    
+     /*
+    ---------START OF SECOND SECTION---------
+    */
+    .schedule-second-section{
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        background-color: #F5F5F5;
+        height: 125vh;
+
+    }
+    .schedule-second-section > h2 {
+        font-size: 32px !important;
+        margin: 12px;
+        padding: 4px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .schedule-second-section > p {
+        margin: 0;
+        font-size: 15px;
+    }
+    .class-hours-wrapper {
+        display: block;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        /* padding: 10px; */
+        margin-bottom: 2em;
+    }
+    .class-hours-wrapper p {
+        margin: 0;
+        padding: 8px;
+        font-size: 16px;
+    }
+    .class-hours-wrapper h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .morning-class {
+        margin-bottom: 2em;
+        margin-right: -.5em;
+        padding: 1.5em;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .evening-class {
+        margin-left: .5em;
+        padding: 1.5em;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+     /*
+    ---------END OF SECOND SECTION---------
+    */
+
+    /*
+    ------------START OF THIRD SECTION------------
+    */
+    .schedule-third-section {
+        background-color: white;
+        color: black;
+        display: block;
+        margin: 0;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 90vh;
+        margin-bottom: 10em;
+    }
+    .bootcamp-content {
+        margin: 0;
+        margin-left: 2em;
+        margin-top: .5em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bootcamp-content > h2 {
+        margin-bottom: .5em;
+        font-size: 30px !important;
+    }
+    .bootcamp-content > p {
+        width: 50%;
+        text-align: center !important;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .bootcamp-saturday >img{
+        width: 50%;     
+        height: inherit;
+        margin-bottom: 1em;
+    }
+    /*
+    ------------END OF THIRD SECTION------------
+    */
+
+
+    /*
+    ------------START OF FOURTH SECTION------------
+    */
+    .schedule-fourth-section {
+        background-color: white;
+        color: black;
+        display: block;
+        margin: 0;
+        /* width: 100%; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 50vh;
+    }
+    .sat-class-content {
+        margin: 0;
+        margin-left: -4em;
+        margin-top: 2em;
+    }
+    .sat-class-content > h2 {
+        margin-bottom: .5em;
+        font-size: 30px !important;
+    }
+    .sat-class-content > p {
+        width: 75%;
+        margin-left: 5em;
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 400;
+    }
+    .early-sat-class > img {
+        width: 65%;
+        height: inherit;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 2em;
+    }
+    /*
+    ------------END OF FOURTH SECTION------------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+
+    .subhead > h2{
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px !important;
+    }
+    
+    .button-div > button{
+        width: 150px !important;
+        height: 50px;
+    }
+    form {
+        margin-top: 1.5em;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2em;
+    }   
+    /*
+    ------------END OF FORM SECTION------------
+    */
+}
+
+
+@media screen and (max-width: 493px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .schedule-first-section {
+        display: grid;
+        height: 40vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 13%, rgba(34,34,34,1) 100%);
+        color: white;
+
+    }
+   
+    .ready-to-change-content > h2 {
+        font-size: 27px !important;
+    } 
+    .schedule-first-section button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 18px !important;
+        width: 75px !important;
+        height: 45px !important;
+    }
+    .schedule-first-section > .button-div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: -4em;
+    }
+    .ready-to-change-content > p {
+        font-size: 14px;
+        width: 75%;
+        margin-top: 1em;
+        margin-left: 12%;
+    }
+    /*
+    ---------END OF FIRST SECTION---------
+    */
+    
+     /*
+    ---------START OF SECOND SECTION---------
+    */
+    .schedule-second-section{
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        background-color: #F5F5F5;
+        height: 125vh;
+
+    }
+    .schedule-second-section > h2 {
+        font-size: 28px !important;
+        margin: 12px;
+        padding: 4px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .schedule-second-section > p {
+        margin: 0;
+        font-size: 14px;
+    }
+    .class-hours-wrapper {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+    .class-hours-wrapper p {
+        margin: 0;
+        padding: 8px;
+        font-size: 16px;
+    }
+    .class-hours-wrapper h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .morning-class {
+        margin-bottom: 2em;
+        margin-right: -.5em;
+        padding: 1.5em;
+        background-color: white;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .evening-class {
+        margin-left: .5em;
+        padding: 1.5em;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+     /*
+    ---------END OF SECOND SECTION---------
+    */
+
+    /*
+    ------------START OF THIRD SECTION------------
+    */
+    .schedule-third-section {
+        background-color: white;
+        color: black;
+        display: block;
+        margin: 0;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 75vh;
+        margin-bottom: 1em;
+    }
+    .bootcamp-content {
+        margin: 0;
+        margin-left: 2em;
+        margin-top: 1em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bootcamp-content > h2 {
+        margin-bottom: .5em;
+        font-size: 30px !important;
+    }
+    .bootcamp-content > p {
+        width: 50%;
+        text-align: center !important;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .bootcamp-saturday > img{
+        width: 75%;     
+        height: 55%;
+        margin-bottom: 1em;
+    }
+    /*
+    ------------END OF THIRD SECTION------------
+    */
+
+
+    /*
+    ------------START OF FOURTH SECTION------------
+    */
+    .schedule-fourth-section {
+        background-color: white;
+        color: black;
+        display: block;
+        margin: 0;
+        /* width: 100%; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 50vh;
+    }
+    .sat-class-content {
+        margin: 0;
+        margin-left: -5em;
+        margin-top: 2em;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+    .sat-class-content > h2 {
+        margin-bottom: .5em;
+        font-size: 30px !important;
+        align-items: center;
+        text-align: center;
+    }
+    .sat-class-content > p {
+        text-align: center;
+        align-items: center;
+        width: 70%;
+        font-size: 14px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 400;
+    }
+    .early-sat-class > img {
+        width: 70%;
+        height: inherit;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 2em;
+    }
+    /*
+    ------------END OF FOURTH SECTION------------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+
+    .subhead > h2{
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px !important;
+    }
+    
+    .button-div > button{
+        width: 150px !important;
+        height: 50px;
+    }
+    form {
+        margin-top: 1.5em;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2em;
+    }   
+    /*
+    ------------END OF FORM SECTION------------
+    */
 }

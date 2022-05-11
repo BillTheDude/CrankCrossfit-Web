@@ -7,6 +7,7 @@ import "../../global.css";
 import { Library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons'
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function AboutUs(){
     return (
@@ -27,16 +28,18 @@ function AboutUs(){
                         <button
                         className="navbar-toggler"
                         type="button"
-                        data-mdb-toggle="collapse"
-                        data-mdb-target="#navbarNav"
-                        aria-controls="navbarNav"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavToggleExternalContent"
+                        aria-controls="navbarNavToggleExternalContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                         >
-                        <i className="fas fa-bars"></i>
+                        <FontAwesomeIcon icon={faBars} />
                         </button>
+            
 
-                        <div className="collapse navbar-collapse" id="navbarNav">
+                        <div className="collapse navbar-collapse" id="navbarNavToggleExternalContent">
+                       
                             <ul className="navbar-nav">
                                 <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="/aboutus">About Us</a>

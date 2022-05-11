@@ -495,12 +495,12 @@ NAVBAR ELEMENTS
         text-align: center;
         margin-bottom: 8px;
         padding: 4px;
-        font-size: 32px !important;
+        font-size: 36px !important;
     }
     .welcome-crankcrossfit > p {
         font-weight: 400;
         margin-top: 12px;
-        font-size: 13px !important;
+        font-size: 15px !important;
         /* padding: 12px; */
     }
     .welcome-button-div {
@@ -512,7 +512,7 @@ NAVBAR ELEMENTS
         width: 120px !important;
         height: 50px !important;
         font-size: 17px !important;
-        margin-top: -5em;
+        margin-top: -3em;
         border-width: 0px !important;
         border: none !important;
         align-items: center;
@@ -545,12 +545,13 @@ NAVBAR ELEMENTS
     }
     #content-second-section > h2 {
         font-weight: 700;
-        font-size: 30px !important;
+        width: 80%;
+        font-size: 36px !important;
     }
     #content-second-section > p {
         margin-top: 14px;
         padding: 4px;
-        font-size: 14px;
+        font-size: 15px;
         width:80%;      
         float: left;
     }
@@ -579,15 +580,14 @@ NAVBAR ELEMENTS
 
     #content-third-section {
         margin: 2em;
-        /* margin-left: 2em; */
         padding: 4px;
     }
     #content-third-section > h2 {
         font-weight: 700;
-        font-size: 30px !important;
+        font-size: 34px !important;
     }
     #content-third-section > p {
-        font-size: 14px;
+        font-size: 15px;
         width: 85%;
         margin-top: 1em;
     }
@@ -616,10 +616,10 @@ NAVBAR ELEMENTS
     }
     #content-fourth-section > h2 {
         font-weight: 700;
-        font-size: 30px !important;
+        font-size: 36px !important;
     }
     #content-fourth-section > p {
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 1em;
         width: 80%;
     }

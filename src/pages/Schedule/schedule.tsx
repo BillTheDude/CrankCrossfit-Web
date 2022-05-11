@@ -5,6 +5,7 @@ import "../../pages/Schedule/schedule.css"
 import { Library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons';
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 function Schedule() {
@@ -32,7 +33,7 @@ function Schedule() {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                         >
-                        <i className="fas fa-bars"></i>
+                        <FontAwesomeIcon icon={faBars} />
                         </button>
 
                         <div className="collapse navbar-collapse" id="navbarNav">
@@ -120,7 +121,7 @@ function Schedule() {
         {/* START OF FORM SECTION*/}
         <section className="gym-form-section">
             <div className="subhead">
-                <h2>Have Questions?</h2>
+                <h2 style={{fontSize: "48px"}}>Have Questions?</h2>
             </div>
             <form>
                             <div className="row">

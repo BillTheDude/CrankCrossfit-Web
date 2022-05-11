@@ -90,3 +90,306 @@ a:hover{
 /*
 ---------END OF SECOND SECTION---------
 */
+
+@media screen and (max-width: 1024px) {
+    .section {
+        display: flex;
+        margin: 0;
+        height: 50vh;
+    }
+     /*
+    ---------START OF FIRST SECTION---------
+    */.coach-section {
+        display: grid;
+        place-items: center;
+        margin: 0;
+        color: black;
+        height: 75vh;
+        background-color: antiquewhite;
+        justify-content: center;
+        text-align: center;   
+    }
+    .subsection {
+        display: grid;
+        place-items: center;
+        margin: 0;
+    }
+    
+    .coach-intro {
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    .coach-intro > h2 {
+        text-align: center;
+        margin: 1em;
+        margin-bottom: 12px;
+        padding: 6px;
+        font-size: 36px !important;
+    }
+    .coach-intro > p {
+        font-size: 15px;
+        width: 50%;
+        padding: 14px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .coach-portrait {
+        display: flex;
+        position: relative;
+        background-color: gainsboro;
+        padding: 24px;
+    }
+/*
+---------END OF FIRST SECTION---------
+*/
+
+/*
+---------START OF SECOND SECTION---------
+*/
+.coach-mission {
+    background-color: azure;
+    height: inherit;
+}
+.subsection {
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+.about-missions > h2 {
+    text-align: center;
+    margin: 1.5em;
+    margin-bottom: 12px;
+    padding: 6px;
+    font-size: 36px !important;
+}
+.about-missions > p {
+    font-size: 15px;
+    width: 50%;
+    padding: 14px;
+    justify-content: center;
+    text-align: center;
+}
+.img-wrapper > img {
+    margin-bottom: 2.5em;
+    height: inherit;
+    border-radius: 5px;
+}
+
+/*
+---------END OF SECOND SECTION---------
+*/    
+}
+
+@media screen and (max-width: 768px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+
+
+
+    /*HAMBURGER ICON*/
+    
+
+
+     /*
+    ---------START OF FIRST SECTION---------
+    */.coach-section {
+        display: grid;
+        place-items: center;
+        margin: 0;
+        color: black;
+        height: 75vh;
+        background-color: antiquewhite;
+        justify-content: center;
+        text-align: center;   
+    }
+    .subsection {
+        display: grid;
+        place-items: center;
+        margin: 0;
+    }
+    
+    .coach-intro {
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    .coach-intro > h2 {
+        text-align: center;
+        margin: 1em;
+        margin-bottom: 12px;
+        padding: 6px;
+        font-size: 36px !important;
+    }
+    .coach-intro > p {
+        font-size: 15px;
+        width: 50%;
+        padding: 14px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .coach-portrait {
+        display: flex;
+        position: relative;
+        background-color: gainsboro;
+        padding: 24px;
+    }
+/*
+---------END OF FIRST SECTION---------
+*/
+}
+
+
+@media screen and (max-width: 493px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+
+    /*
+    ---------START OF FIRST SECTION---------
+    */.coach-section {
+        display: grid;
+        place-items: center;
+        margin: 0;
+        color: black;
+        height: 90vh;
+        background-color: antiquewhite;
+        justify-content: center;
+        text-align: center;   
+    }
+    .subsection {
+        display: grid;
+        place-items: center;
+        margin: 0;
+    }
+    
+    .coach-intro {
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    .coach-intro > h2 {
+        text-align: center;
+        margin: 1em;
+        margin-bottom: 12px;
+        padding: 6px;
+        font-size: 30px !important;
+    }
+    .coach-intro > p {
+        font-size: 15px !important;
+        width: 50%;
+        padding: 14px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .coach-portrait {
+        display: flex;
+        position: relative;
+        background-color: gainsboro;
+        padding: 24px;
+    }
+/*
+---------END OF FIRST SECTION---------
+*/
+
+
+/*
+---------START OF FIRST SECTION---------
+*/
+   /*
+---------START OF SECOND SECTION---------
+*/
+.coach-mission {
+   background-color: azure;
+    height: inherit;
+}
+.subsection {
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+.about-missions > h2 {
+    text-align: center;
+    margin: 1.5em;
+    margin-bottom: 12px;
+    padding: 6px;
+    font-size: 30px !important;
+}
+.about-missions > p {
+    font-size: 16px;
+    width: 50%;
+    padding: 14px;
+    justify-content: center;
+    text-align: center;
+}
+.img-wrapper > img {
+    margin-bottom: 2.5em;
+    border-radius: 5px;
+} 
+/*
+---------END OF FIRST SECTION---------
+*/
+
+}
