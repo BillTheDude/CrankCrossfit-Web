@@ -2,6 +2,13 @@
 p {
     font-weight: 400;
 }
+a {
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    color: inherit;
+}
 /*
 ---------START OF FIRST SECTION---------
 */

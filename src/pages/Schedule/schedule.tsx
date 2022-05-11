@@ -10,7 +10,7 @@ import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons';
 function Schedule() {
     return (
         <div className="schedule">
-            {/* 
+         {/* 
         ------------START OF HEADER SECTION--------------
         */}
 
@@ -64,12 +64,12 @@ function Schedule() {
             <div className="ready-to-change-content">
                 <h2 style={{fontSize: "48px",fontWeight:"700", justifyContent:"center", color: "white", textTransform:"uppercase"}}>Ready to make the change?</h2>
                 <p>Schedule your first class now. First class completely free!</p>
+            </div>
                 <div className="button-div">
-                    <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", padding:"6px 18px", display:"flex",justifyContent:"center", backgroundColor: "#ff4b40"}}>
+                    <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", backgroundColor: "#ff4b40"}}>
                             Schedule
                     </button>
                 </div>
-            </div>
         </section>
         {/* END OF FIRST SECTION */}
 
@@ -117,33 +117,47 @@ function Schedule() {
         
         {/* END OF FOURTH SECTION */}
 
-        <section className="section gym-form-section">
-            <h2>Have Questions?</h2>
-                <form>
-                            <div className="form-row">
-                                <div className="form-group col-md-6">
-                                        <label htmlFor="inputEmail4">Enter Name</label>
-                                        <input type="email" className="form-control" id="inputEmail4" placeholder="Name" />
+        {/* START OF FORM SECTION*/}
+        <section className="gym-form-section">
+            <div className="subhead">
+                <h2>Have Questions?</h2>
+            </div>
+            <form>
+                            <div className="row">
+                                <div className="form-group required col-md-6">
+                                        <label htmlFor="inputFirstName">First Name</label>
+                                        <input type="email" id="inputFirstName" className="form-control" />
                                 </div>
-                                <div className="form-group col-md-6">
-                                    <label htmlFor="inputPhoneNumber">Label</label>
-                                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"className="form-control" id="inputPassword4" placeholder="Phone Number" />
+                                <div className="form-group required col-md-6">
+                                        <label htmlFor="inputLastName">Last Name</label>
+                                        <input type="email" id="inputLastName" className="form-control" />
                                 </div>
                             </div>
-                            <div className="form-group">
-                                <input type="text" className="form-control" id="inputAddress" placeholder="Email" />
+
+                            <div className="row">
+                                <div className="form-group col-md-6">
+                                    <label htmlFor="inputPhone">Your Phone Number</label>
+                                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"id="inputPhone" className="form-control"/>
+                                </div>
+                                <div className="col-md-6">
+                                     <label htmlFor="inputEmail">Your Email</label>
+                                    <input type="text" id="inputEmail"className="form-control"/>
+                                </div>
                             </div>
                          
                             <div className="form-row">
-                                <div className="form-group col-md-6">
-                                    <label htmlFor="inputCity">City</label>
-                                    <textarea className="form-control" cols={25} rows={5} placeholder="Enter comments..."></textarea>
-                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="inputMessage">Your Message</label>
+                                    <textarea className="form-control" cols={25} rows={5} placeholder="Enter your message..."></textarea>
+                            </div>
                               
                             </div>
-                            <button type="submit" className="btn btn-primary">Submit</button>
-                    </form>
-                </section>
+                            <div className="button-div">
+                                <button type="submit" className="btn btn-primary rounded-pill">Submit</button>
+                            </div>
+                </form>
+        </section>
+        {/* END OF FOURTH SECTION */}
 
         {/* 
         ------------START OF FOOTER SECTION--------------
@@ -167,13 +181,13 @@ function Schedule() {
                         
                                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
                                     <h5 className="text-uppercase">Links</h5>
-                                    <ul className="list-unstyled mb-0">
+                                    <ul className="page.links list-unstyled mb-0">
                                         <li>
                                             <a href="/aboutUs" className="text-white">About Us</a>
                                         </li>
 
                                         <li>
-                                            <a href="#!" className="text-white">Schedule</a>
+                                            <a href="/schedule" className="text-white">Schedule</a>
                                         </li>
 
                                         <li>

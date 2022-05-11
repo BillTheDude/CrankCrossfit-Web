@@ -4,8 +4,19 @@
 h2 {
     font-weight: 500;
 }
-
-
+.button-div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+}
+a {
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    color: inherit;
+}
 /*DESKTOP DIMENSION*/
 @media screen and (max-width: 1920px) {
 
@@ -181,6 +192,21 @@ h2 {
         color: white;
 
     }
+    .ready-to-change-content > h2 {
+        font-size: 42px !important;
+    } 
+    .schedule-first-section  button {
+        border-width: 0px !important;
+        border: none !important;
+    }
+    .schedule-first-section > .button-div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: -3em;
+       
+    }
     .ready-to-change-content > p {
         font-size: 18px;
         margin-top: 1em;
@@ -313,6 +339,31 @@ h2 {
     }
     /*
     ------------END OF FOURTH SECTION------------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+    .subhead > h2{
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 1.5em;
+    }
+    
+    .button-div > button{
+        width: 150px !important;
+        height: 50px;
+    }
+    form {
+        margin-top: 1.5em;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2em;
+    }   
+    /*
+    ------------END OF FORM SECTION------------
     */
 }
 

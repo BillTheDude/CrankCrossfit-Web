@@ -4,6 +4,13 @@
 h2 {
     font-weight: 500;
 }
+a {
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    color: inherit;
+}
 
 /*DESKTOP DIMENSION*/
 
@@ -16,12 +23,13 @@ h2 {
     .contactUs-first-section {
         background-color: #252525;
         color: white;
-        height: 45vh;
+        height: 55vh;
         display: grid;
         place-items: center;
         /* justify-content: center; */
         text-align: center;
     }
+    
     .apply-now-content > p{
         margin-top: 12px;
         font-size: 20px;
@@ -37,6 +45,60 @@ h2 {
         text-align: center;
     }
     
+    /*
+    ------------END OF FIRST SECTION------------
+    */
+    
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+
+    .contactUs-second-section {
+        background-color: #db3333;
+        color: white;
+        height: 40vh;
+        display: grid;
+        /* place-items: center; */
+        text-align: center;
+    }
+     /*
+    ------------END OF SECOND SECTION------------
+    */
+    
+}
+
+
+@media screen and (max-width: 1440px) {
+     /*
+    ------------START OF FIRST SECTION------------
+    */
+    
+    .contactUs-first-section {
+        background-color: #252525;
+        color: white;
+        height: 45vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+    
+    .apply-now-content > h2 {
+        font-size: 42px !important;
+    }
+    .apply-now-content > p{
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+    .contactUs-button-div button {
+        width: 150px;
+        height: 50px;
+        margin-top: -4em !important;
+        border-width: 0px !important;
+        border: none !important;
+        align-items: center;
+        text-align: center;
+    }
     
     /*
     ------------END OF FIRST SECTION------------
@@ -54,8 +116,15 @@ h2 {
         /* place-items: center; */
         text-align: center;
     }
+    .follow-us-content > h2 {
+        font-size: 42px !important;
+        font-weight: 700;
+    }
+    .follow-us-content > p {
+        font-size: 18px;
+    }
+   
      /*
     ------------END OF SECOND SECTION------------
     */
-    
 }

@@ -77,40 +77,53 @@ function ContactUs() {
         <section className="contactUs-second-section follow-us">
             <div className="follow-us-content">
                 <h2 style={{fontSize: "48px",fontWeight: "700",textTransform:"uppercase"}}>Follow us</h2>
-                <p>Follow us on social media and tag us <a href="https://www.instagram.com/therealcrankcrossfit/?hl=en">@therealcrankcrossfit</a></p>
+                <p>Follow us on social media and tag us <a href="https://www.instagram.com/therealcrankcrossfit/?hl=en" id="insta-gym-link" style={{color: "white"}}>@therealcrankcrossfit</a></p>
             </div>
         </section>
         
         {/* END OF SECOND SECTION */}
 
-        <section className="gym-form-section">
-            <h2>Have Questions?</h2>
-                <form>
-                            <div className="form-row">
-                                <div className="form-group col-md-6">
-                                        <label htmlFor="inputEmail4">Enter Name</label>
-                                        <input type="email" className="form-control" id="inputEmail4" placeholder="Name" />
+       {/* START OF FORM SECTION*/}
+       <section className="gym-form-section">
+            <div className="subhead">
+                <h2>Have Questions?</h2>
+            </div>
+            <form>
+                            <div className="row">
+                                <div className="form-group required col-md-6">
+                                        <label htmlFor="inputFirstName">First Name</label>
+                                        <input type="email" id="inputFirstName" className="form-control" />
                                 </div>
-                                <div className="form-group col-md-6">
-                                    <label htmlFor="inputPhoneNumber">Label</label>
-                                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"className="form-control" id="inputPassword4" placeholder="Phone Number" />
+                                <div className="form-group required col-md-6">
+                                        <label htmlFor="inputLastName">Last Name</label>
+                                        <input type="email" id="inputLastName" className="form-control" />
                                 </div>
                             </div>
-                            <div className="form-group">
-                                <input type="text" className="form-control" id="inputAddress" placeholder="Email" />
+
+                            <div className="row">
+                                <div className="form-group col-md-6">
+                                    <label htmlFor="inputPhone">Your Phone Number</label>
+                                    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"id="inputPhone" className="form-control"/>
+                                </div>
+                                <div className="col-md-6">
+                                     <label htmlFor="inputEmail">Your Email</label>
+                                    <input type="text" id="inputEmail"className="form-control"/>
+                                </div>
                             </div>
                          
                             <div className="form-row">
-                                <div className="form-group col-md-6">
-                                    <label htmlFor="inputCity">City</label>
-                                    <textarea className="form-control" cols={25} rows={5} placeholder="Enter comments..."></textarea>
-                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="inputMessage">Your Message</label>
+                                    <textarea className="form-control" cols={25} rows={5} placeholder="Enter your message..."></textarea>
+                            </div>
                               
                             </div>
-                            <button type="submit" className="btn btn-primary">Submit</button>
-                    </form>
-                </section>
-
+                            <div className="button-div">
+                                <button type="submit" className="btn btn-primary rounded-pill">Submit</button>
+                            </div>
+                </form>
+        </section>
+        {/* END OF FOURTH SECTION */}
         {/* 
         ------------START OF FOOTER SECTION--------------
         */}
