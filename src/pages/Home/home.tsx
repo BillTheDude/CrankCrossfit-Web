@@ -168,7 +168,7 @@ function Home() {
                                     </li>
 
                                     <li>
-                                        <a href="#!" className="text-white">Schedule</a>
+                                        <a href="/schedule" className="text-white">Schedule</a>
                                     </li>
 
                                     <li>

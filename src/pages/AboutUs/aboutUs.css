@@ -9,87 +9,156 @@ a:hover{
     text-decoration: underline !important;
     color: inherit;
 }
-/*
----------START OF FIRST SECTION---------
-*/
-.coachs {
-    display: grid;
-    place-items: center;
-    margin: 0;
-    color: black;
-    height: 75vh;
-    background-color: antiquewhite;
-    justify-content: center;
-    text-align: center;    
-}
-.subsection {
-    display: grid;
-    place-items: center;
-    margin: 0;
-}
 
-.coach-intro {
-    text-align: center;
-    color: black;
-    width: 100%;
-}
-.coach-intro > h2 {
-    text-align: center;
-    margin: 1em;
-    margin-bottom: 12px;
-    padding: 6px;
-}
-.coach-intro > p {
-    font-size: 18px;
-    width: 50%;
-    padding: 14px;
-    justify-content: center;
-    text-align: center;
-}
+@media screen and (max-width: 1920px){
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .coachs {
+        display: grid;
+        place-items: center;
+        margin: 0;
+        color: black;
+        height: 85vh;
+        justify-content: center;
+        text-align: center;    
+    }
+    .subsection {
+        display: grid;
+        place-items: center;
+        margin: 0;
+    }
+    
+    .coach-intro {
+        text-align: center;
+        color: black;
+        width: 100%;
+    }
+    .coach-intro > h2 {
+        text-align: center;
+        margin: 1em;
+        margin-bottom: 12px;
+        padding: 6px;
+    }
+    .coach-intro > p {
+        font-size: 18px;
+        width: 50%;
+        padding: 14px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .coach-portrait {
+        width: 100%;
+        display: flex !important;
+        position: relative;
+        /* position: relative; */
+        flex-direction: row; 
+        background-color: rgb(163, 113, 113);
+        padding: 4px;
+        column-gap: 3.5em;
+        height: 30em;
+        justify-content: center ;
+        text-align: center ;
+        align-items: center ;
+    }
+    .coach1{
+        width: 435px;
+        height: 460px;
+        padding: 10px;        
+        background-color: rgb(89, 89, 210);
+        justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+        border-radius: 25px;
+    }
 
-.coach-portrait {
-    display: flex;
-    position: relative;
-    background-color: gainsboro;
-    padding: 24px;
-}
-/*
----------END OF FIRST SECTION---------
-*/
+    /*COACH PORTRAIT TEXT LABEL (COACH NAMES)*/
+    .coach1 > p {
+        position: absolute;
+        color: white;
+        font-weight: 700;
+        font-size: 26px;
+        bottom: 0 !important; 
+        left: 10% !important;
+    }
 
-/*
----------START OF SECOND SECTION---------
-*/
-.coach-mission {
-    background-color: azure;
-    height: inherit;
-}
-.subsection {
-    display: grid;
-    place-items: center;
-    margin: 0;
-}
-.about-missions > h2 {
-    text-align: center;
-    margin: 1.5em;
-    margin-bottom: 12px;
-    padding: 6px;
-}
-.about-missions > p {
-    font-size: 18px;
-    width: 50%;
-    padding: 14px;
-    justify-content: center;
-    text-align: center;
-}
-.img-wrapper > img {
-    margin-bottom: 2.5em;
-    border-radius: 5px;
-}
+    .coach2{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 435px;
+        height: 460px;
+        padding: 20px;
+        background-color: rebeccapurple;
+        border-radius: 25px;
+    }
 
-/*
----------END OF SECOND SECTION---------
-*/
+    /*COACH PORTRAIT TEXT LABEL (COACH NAMES)*/
+    .coach2 > p {
+        position: absolute;
+        color: white;
+        font-weight: 700;
+        font-size: 26px;
+        bottom: 0 !important; 
+        left: 39% !important;
+    }
+    .coach3 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 435px;
+        height: 460px;
+        padding: 20px;
+        background-color: rgb(173, 136, 210);
+        border-radius: 25px;
+    }
+    .coach3 > p{
+        position: absolute;
+        color: white;
+        font-weight: 700;
+        font-size: 26px;
+        bottom: 0 !important; 
+        right: 24% !important;
+    }
+    /*
+    ---------END OF FIRST SECTION---------
+    */
+    
+    /*
+    ---------START OF SECOND SECTION---------
+    */
+    .coach-mission {
+        background-color: azure;
+        height: inherit;
+    }
+    .subsection {
+        display: grid;
+        place-items: center;
+        margin: 0;
+    }
+    .about-missions > h2 {
+        text-align: center;
+        margin: 1.5em;
+        margin-bottom: 12px;
+        padding: 6px;
+    }
+    .about-missions > p {
+        font-size: 18px;
+        width: 50%;
+        padding: 14px;
+        justify-content: center;
+        text-align: center;
+    }
+    .img-wrapper > img {
+        margin-bottom: 2.5em;
+        border-radius: 5px;
+    }
+    
+    /*
+    ---------END OF SECOND SECTION---------
+    */
+}
 
 @media screen and (max-width: 1024px) {
     .section {
@@ -137,6 +206,7 @@ a:hover{
     
     .coach-portrait {
         display: flex;
+        flex-direction: row;
         position: relative;
         background-color: gainsboro;
         padding: 24px;
@@ -348,7 +418,7 @@ a:hover{
         display: flex;
         position: relative;
         background-color: gainsboro;
-        padding: 24px;
+        padding: 15px;
     }
 /*
 ---------END OF FIRST SECTION---------

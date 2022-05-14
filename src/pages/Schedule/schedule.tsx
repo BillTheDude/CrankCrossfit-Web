@@ -9,6 +9,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 function Schedule() {
+    document.title = "CrankCrossfit | Schedule"
+
+ 
     return (
         <div className="schedule">
          {/* 
@@ -27,8 +30,8 @@ function Schedule() {
                         <button
                         className="navbar-toggler"
                         type="button"
-                        data-mdb-toggle="collapse"
-                        data-mdb-target="#navbarNav"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
                         aria-controls="navbarNav"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
@@ -63,11 +66,11 @@ function Schedule() {
         {/* START OF FIRST SECTION */}
         <section className="section schedule-first-section ready-to-change">
             <div className="ready-to-change-content">
-                <h2 style={{fontSize: "48px",fontWeight:"700", justifyContent:"center", color: "white", textTransform:"uppercase"}}>Ready to make the change?</h2>
+                <h2 style={{fontSize: "42px",fontWeight:"700", justifyContent:"center", color: "white", textTransform:"uppercase"}}>Ready to make the change?</h2>
                 <p>Schedule your first class now. First class completely free!</p>
             </div>
                 <div className="button-div">
-                    <button className="btn-submit text-white rounded-pill border" style={{fontSize: "20px", backgroundColor: "#ff4b40"}}>
+                    <button className="btn-submit text-white rounded-pill border"  style={{fontSize: "20px", backgroundColor: "#ff4b40"}}>
                             Schedule
                     </button>
                 </div>
@@ -100,7 +103,7 @@ function Schedule() {
         {/* START OF THIRD SECTION*/}
         <section className="section schedule-third-section bootcamp-saturday">
             <div className="bootcamp-content">
-                <h2 style={{fontSize: "48px",fontWeight: "700",textTransform:"uppercase"}}>BootCamp Saturdays</h2>
+                <h2 style={{fontSize: "42px",fontWeight: "700",textTransform:"uppercase"}}>BootCamp Saturdays</h2>
                 <p>This saturday classes focusses on a more intense mobility and cardio workout. You are welcome to join every Saturday at 10am.</p>
             </div>
             <img src={require('../../images/sat-group-pic2-desktop.png')} alt="" />
@@ -110,7 +113,7 @@ function Schedule() {
         {/* START OF FOURTH SECTION*/}
         <section className="schedule-fourth-section early-sat-class">
             <div className="sat-class-content">
-                <h2 style={{fontSize: "48px",fontWeight: "700",textTransform:"uppercase"}}>Technique Session</h2>
+                <h2 style={{fontSize: "42px",fontWeight: "700",textTransform:"uppercase"}}>Technique Session</h2>
                 <p>It’s all about the technique. This session mainly focuses on practicing and help building a strong core technique movements that leads better performance. Join us every Saturday at 8:30am.</p>
             </div>
             <img src={require('../../images/group-technique.png')}/>
@@ -121,17 +124,17 @@ function Schedule() {
         {/* START OF FORM SECTION*/}
         <section className="gym-form-section">
             <div className="subhead">
-                <h2 style={{fontSize: "48px"}}>Have Questions?</h2>
+                <h2 style={{fontSize: "42px"}}>Have Questions?</h2>
             </div>
             <form>
                             <div className="row">
                                 <div className="form-group required col-md-6">
                                         <label htmlFor="inputFirstName">First Name</label>
-                                        <input type="email" id="inputFirstName" className="form-control" />
+                                        <input type="name" id="inputFirstName" className="form-control" />
                                 </div>
                                 <div className="form-group required col-md-6">
                                         <label htmlFor="inputLastName">Last Name</label>
-                                        <input type="email" id="inputLastName" className="form-control" />
+                                        <input type="lastName" id="inputLastName" className="form-control" />
                                 </div>
                             </div>
 

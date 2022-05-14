@@ -7,6 +7,9 @@ h2 {
 a {
     text-decoration: none !important;
 }
+.navbar> a:hover {
+    text-decoration: none !important;
+}
 a:hover{
     text-decoration: underline !important;
     color: inherit;
@@ -23,7 +26,7 @@ a:hover{
     .contactUs-first-section {
         background-color: #252525;
         color: white;
-        height: 55vh;
+        height: 48vh;
         display: grid;
         place-items: center;
         /* justify-content: center; */
@@ -38,7 +41,7 @@ a:hover{
     .contactUs-button-div button {
         width: 150px;
         height: 50px;
-        margin-top: -5em;
+        margin-top: -5.5em;
         border-width: 0px !important;
         border: none !important;
         align-items: center;
@@ -56,10 +59,34 @@ a:hover{
     .contactUs-second-section {
         background-color: #db3333;
         color: white;
-        height: 40vh;
-        display: grid;
-        /* place-items: center; */
-        text-align: center;
+        height: 50vh;
+        display: flex;    
+    }
+    
+    .follow-us-content {
+        width: 25%;
+        margin-top: 6%;
+        margin-left: 20%;
+        justify-content: start !important;
+        align-items: start !important;
+        text-align: start !important;
+
+    }
+    .follow-us-content > h2 {
+        font-size: 48px !important;
+        margin-bottom: 12px;
+        font-weight: 700;
+    }
+    .follow-us-content > p {
+        font-size: 24px;
+    }
+    .follow-us-content a {
+        font-weight: 700 !important;
+        text-decoration: underline !important;
+    }
+    .follow-us > img {
+        margin-top: 2em;
+        margin-left: 12em;
     }
      /*
     ------------END OF SECOND SECTION------------
@@ -76,7 +103,7 @@ a:hover{
     .contactUs-first-section {
         background-color: #252525;
         color: white;
-        height: 45vh;
+        height: 50vh;
         display: grid;
         place-items: center;
         text-align: center;
@@ -84,6 +111,7 @@ a:hover{
     
     .register-now-content > h2 {
         font-size: 42px !important;
+        font-weight: 700;
     }
     .register-now-content > p{
         margin-top: 12px;
@@ -92,7 +120,7 @@ a:hover{
 
     .contactUs-button-div button {
         width: 150px;
-        height: 50px;
+        height: 55px;
         margin-top: -4em !important;
         border-width: 0px !important;
         border: none !important;
@@ -112,18 +140,35 @@ a:hover{
         background-color: #db3333;
         color: white;
         height: 45vh;
-        display: grid;
-        /* place-items: center; */
-        text-align: center;
+        display: flex;
+    
+    }
+    .follow-us-content {
+        width: 25%;
+        margin-top: 7%;
+        margin-left: 20%;
+        justify-content: start !important;
+        align-items: start !important;
+        text-align: start !important;
     }
     .follow-us-content > h2 {
         font-size: 42px !important;
+        margin-bottom: 12px;
         font-weight: 700;
     }
     .follow-us-content > p {
         font-size: 18px;
+        width: auto;
+        word-wrap:normal;
     }
-   
+    .follow-us-content a {
+        font-weight: 700;
+        text-decoration: underline !important;
+    }
+    .follow-us > img {
+        margin-top: 2em;
+        margin-left: 8em;
+    }
      /*
     ------------END OF SECOND SECTION------------
     */
@@ -175,16 +220,33 @@ a:hover{
         background-color: #db3333;
         color: white;
         height: 45vh;
-        display: grid;
-        text-align: center;
+        display: flex;
     }
 
+    .follow-us-content {
+        width: 28%;
+        margin-top: 11%;
+        margin-left: 20%;
+        justify-content: start !important;
+        align-items: start !important;
+        text-align: start !important;
+    }
     .follow-us-content > h2 {
-        font-size: 36px !important;
+        font-size: 35px !important;
+        margin-bottom: 12px;
         font-weight: 700;
     }
     .follow-us-content > p {
-        font-size: 15px;
+        font-size: 14px;
+        width: auto;
+    }
+    .follow-us-content a {
+        font-weight: 700;
+        text-decoration: underline !important;
+    }
+    .follow-us > img {
+        margin-top: 2em;
+        margin-left: 7em;
     }
     /*
     ---------END OF SECOND SECTION---------
@@ -272,11 +334,6 @@ a:hover{
         font-size: 18px !important;
         width: 120px !important;
         height: 45px !important;
-        /* width: 150px;
-        height: 50px;
-        margin-top: -3em !important;
-        border-width: 0px !important;
-        border: none !important; */
         align-items: center;
         text-align: center;
     }
@@ -288,22 +345,38 @@ a:hover{
     ---------START OF SECOND SECTION---------
     */
     .contactUs-second-section {
-        background-color: #db3333;
-        color: white;
+        color: black;
         height: 45vh;
         display: grid;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .follow-us-content {
-        margin-top: 1em;
+        width: 35%;
+        margin-top: 7%;
+        margin-left: 20%;
+        justify-content: center!important;
+        align-items: center !important;
+        text-align: center !important;
     }
 
     .follow-us-content > h2 {
-        font-size: 24px !important;
+        font-size: 28px !important;
+        margin-bottom: 12px;
         font-weight: 700;
     }
     .follow-us-content > p {
         font-size: 15px;
+        width: auto;
+    }
+    .follow-us-content a {
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    .follow-us > img {
+        margin-top: 1em;
+        margin-left: 2.5em;
     }
     /*
     ---------END OF SECOND SECTION---------
@@ -333,5 +406,124 @@ a:hover{
     }   
     /*
     ------------END OF FORM SECTION------------
+    */
+}
+
+@media screen and (max-width: 425px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .contactUs-first-section {
+        display: grid;
+        height: 45vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }   
+
+    .register-now-content > h2 {
+        font-size: 24px !important;
+        width: 75%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .register-now-content > p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .contactUs-button-div button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 18px !important;
+        width: 120px !important;
+        height: 45px !important;
+        align-items: center;
+        text-align: center;
+    }
+     /*
+    ---------END OF FIRST SECTION---------
+    */
+
+     /*
+    ---------START OF SECOND SECTION---------
+    */
+    .contactUs-second-section {
+        color: white;
+        height: 79vh;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .follow-us-content {
+        width: 60%;
+        margin-top: 3em;
+        margin-left: 20%;
+        justify-content: center!important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .follow-us-content > h2 {
+        font-size: 28px !important;
+        margin-bottom: 12px;
+        font-weight: 700;
+    }
+    .follow-us-content > p {
+        font-size: 15px;
+        width: 95%;
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
+        align-items: center;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .follow-us-content a {
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    .follow-us > img {
+        height: 293px;
+        margin-top: 6px;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    /*
+    ---------END OF SECOND SECTION---------
     */
 }

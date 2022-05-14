@@ -10,6 +10,7 @@ import { faInstagram,  faFacebookF} from '@fortawesome/free-brands-svg-icons'
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function AboutUs(){
+    document.title = "CrankCrossfit | About Us" 
     return (
         <div className="aboutUs">
             {/* 
@@ -71,9 +72,15 @@ function AboutUs(){
             </div>
 
             <div className="subsection coach-portrait">
-                <span>Coach 1</span>
-                <span>Coach 2</span>
-                <span>Coach 3</span>
+                <div className="coach1">
+                    <p>Coach 1</p>
+                    </div>
+                <div className="coach2">
+                    <p>Coach 2</p>
+                </div>
+                <div className="coach3">
+                    <p>Coach 3</p>
+                </div>
             </div>
         </section>
 
@@ -120,7 +127,7 @@ function AboutUs(){
                                         </li>
 
                                         <li>
-                                            <a href="#!" className="text-white">Schedule</a>
+                                            <a href="/schedule" className="text-white">Schedule</a>
                                         </li>
 
                                         <li>
