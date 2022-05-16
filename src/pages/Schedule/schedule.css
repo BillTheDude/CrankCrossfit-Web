@@ -18,7 +18,7 @@ a:hover{
     color: inherit;
 }
 /*DESKTOP DIMENSION*/
-@media screen and (max-width: 1920px) {
+@media all and (max-width: 1920px) {
 
     /*
     ---------START OF FIRST SECTION---------
@@ -209,7 +209,7 @@ a:hover{
 /*
 ------------DESKTOP SCREEN SIZE - LAPTOP L (1440px)------------
 */
-@media screen and (max-width: 1440px) {
+@media all and (max-width: 1440px) {
     .section {
         display: flex;
         margin: 0;
@@ -406,7 +406,7 @@ a:hover{
 /*
 ------------DESKTOP SCREEN SIZE - LAPTOP (1024px)------------
 */
-@media screen and (max-width: 1024px){
+@media all and (max-width: 1024px){
     .section {
         display: flex;
         margin: 0;
@@ -602,7 +602,7 @@ a:hover{
     */
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     html, body{
         overflow-x: hidden;
     }
@@ -859,7 +859,7 @@ a:hover{
 }
 
 
-@media screen and (max-width: 493px) {
+@media all and (max-width: 493px) {
     html, body{
         overflow-x: hidden;
     }
@@ -1288,7 +1288,7 @@ a:hover{
     ------------END OF THIRD SECTION------------
     */
 
-/*
+    /*
     ------------START OF FOURTH SECTION------------
     */
     .schedule-fourth-section {
@@ -1448,7 +1448,7 @@ a:hover{
     ---------END OF FIRST SECTION---------
     */
 
-     /*
+    /*
     ------------START OF SECOND SECTION------------
     */
     .schedule-second-section {
@@ -1709,4 +1709,186 @@ a:hover{
     ---------END OF FIRST SECTION---------
     */
 
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+    .schedule-second-section {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        color: white;
+        height: 100vh !important;
+        color: black;
+    }
+    .schedule-second-section> h2{
+        font-size: 28px !important;
+        margin: 0;
+        padding: 8px;
+        margin: 4px;
+    }
+    .schedule-second-section > p {
+        font-size: 15px !important;
+        padding: 4px;
+    }
+
+    .class-hours-wrapper > p {
+        margin: 0;
+        padding: 8px;
+        font-size: 15px;
+    }
+    .morning-class  > h3 {
+        margin: 0;
+        padding: 4px;
+        font-size: 18px !important;
+    }
+    .evening-class > h3{
+        font-size: 18px !important;
+        margin: 0;
+        padding: 4px;
+    }
+    .evening-class{
+        margin: 0;
+    }
+    /*
+    ------------END OF SECOND SECTION------------
+    */
+
+
+    /*
+    ------------START OF THIRD SECTION------------
+    */
+    .schedule-third-section {
+        background-color: white;
+        color: black;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 58vh;
+        margin: 0;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+    .bootcamp-content {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .bootcamp-content > h2 {
+        margin: 0;
+        padding: 10px;
+        font-size: 28px !important;
+    }
+    .bootcamp-content > p {
+        margin: 0;
+        padding: 8px;
+        text-align: center !important;
+        justify-content: center;        
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .bootcamp-saturday > img{
+        width: inherit;     
+        height: 16em;
+        margin: 0;
+        padding: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    /*
+    ------------END OF THIRD SECTION------------
+    */
+
+
+    /*
+    ------------START OF FOURTH SECTION------------
+    */
+    .schedule-fourth-section {
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        color: black;
+        margin: 0;
+        margin-bottom: .5em;
+        width: 100%;
+        height: 63vh;
+    }
+    .sat-class-content {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .sat-class-content > h2 {
+        margin: 0;
+        padding: 8px;
+        font-size: 28px !important;
+    }
+    .sat-class-content > p {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 8px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .early-sat-class > img {
+        width: inherit; 
+        height: 15em;
+        margin: 0;
+        padding: 16px;
+    }
+    /*
+    ------------END OF FOURTH SECTION------------
+    */
+
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+    .gym-form-section {
+        height: 90vh;
+        display: block;
+        width: inherit;
+    }
+    
+    .subhead > h2{
+        margin: 8px !important;
+        padding: 12px;
+        font-size: 28px !important;
+        font-weight: 700;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button-div{
+        width: inherit;
+        margin: 4px;
+        padding: 12px;
+    }
+    .button-div > button{
+        width: 125px !important;
+        height: 50px !important;
+    }
+    label {
+        font-size: 13px;
+    }
+ 
+    /*
+    ------------END OF FORM SECTION------------
+    */
 }
