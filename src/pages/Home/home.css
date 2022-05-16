@@ -24,7 +24,7 @@ NAVBAR ELEMENTS
 }
 
 /*DESKTOP DIMENSION*/
-@media screen and (max-width: 1920px){
+@media (max-width: 1920px){
     .section {
         display: flex;
         margin: 0;
@@ -632,6 +632,218 @@ NAVBAR ELEMENTS
     */ 
 }
 
+@media screen and (max-width: 768px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ------------START OF FIRST SECTION------------
+    */
+    .home-first-section{
+        display: grid;
+        text-align: center;
+        color: white;
+        height: 50vh;
+        text-align: center;
+        place-items: center;
+        background: url('../../images/crossfit-welcome-bkg-desktop.png');
+    }
+    .welcome-crankcrossfit > h2 {
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 8px;
+        padding: 4px;
+        font-size: 36px !important;
+    }
+    .welcome-crankcrossfit > p {
+        font-weight: 400;
+        margin-top: 12px;
+        font-size: 15px !important;
+        /* padding: 12px; */
+    }
+    .welcome-button-div {
+        margin: 2.5em;
+        justify-content: center;
+        align-items: center;
+    }
+    .welcome-button-div button{
+        width: 120px !important;
+        height: 50px !important;
+        font-size: 17px !important;
+        margin-top: -3em;
+        border-width: 0px !important;
+        border: none !important;
+        align-items: center;
+        text-align: center;
+    }
+    .welcome-crankcrossfit{
+        max-height: 55vh;
+        width: 75%;
+    }
+    /*
+    ------------END OF FIRST SECTION------------
+    */
+
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+    .second-section {
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #content-second-section {
+        margin-left: 2em;
+        padding: 2px;
+    }
+    #content-second-section > h2 {
+        font-weight: 700;
+        width: 80%;
+        font-size: 36px !important;
+    }
+    #content-second-section > p {
+        margin-top: 14px;
+        padding: 4px;
+        font-size: 15px;
+        width:80%;      
+        float: left;
+    }
+    .second-section > img {
+        width: 75% !important;
+        height: inherit !important;
+    }
+
+    /*
+    ------------END OF SECOND SECTION------------
+    */
+
+
+    /*
+    ------------START OF WRAPPER SECTION------------
+    */
+    .wrapper-content {
+        margin: 0;
+        height: 45vh;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    #healthy-life > h2 {
+        font-size: 24px !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #healthy-life > p{
+        font-size: 14px !important;
+        font-weight: 400;
+        width:85%;
+        text-align: center;
+        align-items: center;
+    }
+    #healthy-life > img {
+        width: 25%;
+        height: 50%;
+    }
+
+    #bootcamp-saturday > h2 {
+        font-size: 24px !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #bootcamp-saturday > p {
+        font-size: 14px !important;
+        font-weight: 400;
+        width:75%;
+        text-align: center;
+        align-items: center;
+    }
+    #bootcamp-saturday > img {
+        width: 25%;
+    height: 50%;
+    }
+
+    /*
+    ------------END OF WRAPPER SECTION------------
+    */
+
+
+    /*
+    ------------START OF THIRD SECTION------------
+    */
+    .third-section {
+        background-color: white;
+        color: black;
+        margin: 0;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        height: 45vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .third-section >  img {
+        width: 100%;
+        height: auto !important;
+    }
+    #content-third-section {
+        margin: 2em;
+    }
+    #content-third-section h2{
+        font-size: 26px !important;
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+        margin: 4px;
+        padding: 4px;
+    }
+    #content-third-section > p{
+        font-size: 14px !important;
+        width:90%;
+        text-align: center;
+        align-items: center;
+    }
+    /*
+    ------------END OF THIRD SECTION------------
+    */
+    
+}
+
 /*IPHONE 12/13 PRO SCREEN DIMENSION*/
 @media screen and (max-width: 390px){  
 
@@ -709,7 +921,7 @@ NAVBAR ELEMENTS
     ------------START OF SECOND SECTION------------
     */
     .second-section{
-        background-color: white;
+
         margin: 0;
         margin-top: 1em;
         margin-bottom: 1em;
@@ -880,10 +1092,204 @@ NAVBAR ELEMENTS
         font-size: 8px;
         text-align: center;
     }
-
-
 }
 
+/*IPHONE 12/13 MINI SCREEN DIMENSION*/
+@media screen and (max-width: 375px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+        height: inherit;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ------------START OF FIRST SECTION------------
+    */
+    .home-first-section{
+        display: grid;
+        text-align: center;
+        color: white;
+        height: 50vh;
+        text-align: center;
+        place-items: center;
+        background: url('../../images/crossfit-welcome-bkg-desktop.png');
+    }
+    .welcome-crankcrossfit > h2 {
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 8px;
+        padding: 4px;
+        font-size: 27px !important;
+    }
+    .welcome-crankcrossfit > p {
+        font-weight: 400;
+        margin-top: 12px;
+        font-size: 13px !important;
+        /* padding: 12px; */
+    }
+    .welcome-button-div {
+        margin: 2.5em;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .welcome-button-div button{
+        margin-top: -3em;
+        font-size: 17px !important;
+        height: 44px !important;
+        width: 110px !important;
+        border-width: 0px !important;
+        border: none !important;
+        align-items: center;
+        text-align: center;
+    }
+    .welcome-crankcrossfit{
+        max-height: 55vh;
+        width: 75%;
+    }
+    /*
+    ------------END OF FIRST SECTION------------
+    */
+
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+    .second-section {
+        background-color: white;
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #content-second-section {
+        padding: 2px;
+    }
+    #content-second-section > h2 {
+        font-weight: 700;
+        width: 75%;
+        font-size: 25px !important;
+    }
+    #content-second-section > p {
+        margin-top: 14px;
+        padding: 4px;
+        font-size: 15px;
+        font-weight: 300;
+        width:70%;      
+    }
+    /*
+    ------------END OF SECOND SECTION------------
+    */
 
 
+    /*
+    ------------START OF WRAPPER SECTION------------
+    */
+    .wrapper-content {
+        margin: 0;
+        height: 55vh;
+        margin-top: 4em !important;
+        margin-bottom: 4em;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    #healthy-life > h2 {
+        font-size: 25px !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #healthy-life > p{
+        font-size: 14px !important;
+        font-weight: 400;
+        width:75%;
+        margin-left: 13% !important;
+        margin-right: 13% !important;
+        text-align: center;
+        align-items: center;
+    }
+    #healthy-life > img {
+        width: 335px;
+        height:  250px !important;
+        margin-left: 2%;
+    }
+
+    #bootcamp-saturday > h2 {
+        font-size: 24px !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #bootcamp-saturday > p {
+        font-size: 14px !important;
+        font-weight: 400;
+        width:75%;
+        text-align: center;
+        align-items: center;
+    }
+    #bootcamp-saturday > img {
+        width: 335px;
+        height:  250px !important;
+        margin-top: 80%;
+        margin-left: 2%;
+    }
+
+
+    }
+
+
+
+    }
+    .fourth-section > img {
+        width: 85% !important;
+        height: 54% !important;
+    }
+    #content-fourth-section {
+        margin-bottom: 0;
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+    #content-fourth-section > h2 {
+        font-size: 23px !important ;
+        width: 90%;
+        font-weight: 700;
+        text-align: center;
+    }
+    #content-fourth-section > p {
+        font-size: 12px !important;
+        /* width:75%; */
+        text-align: center;
+        align-items: center;
+    }
+}
 

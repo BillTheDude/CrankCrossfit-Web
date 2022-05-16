@@ -17,7 +17,7 @@ a:hover{
 
 /*DESKTOP DIMENSION*/
 
-@media screen and (max-width: 1920px) {
+@media all and (max-width: 1920px) {
     
     /*
     ------------START OF FIRST SECTION------------
@@ -174,7 +174,7 @@ a:hover{
     */
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     
      /*
     ---------START OF FIRST SECTION---------
@@ -409,7 +409,7 @@ a:hover{
     */
 }
 
-@media screen and (max-width: 425px) {
+@media all and (max-width: 425px) {
     html, body{
         overflow-x: hidden;
     }
@@ -526,4 +526,365 @@ a:hover{
     /*
     ---------END OF SECOND SECTION---------
     */
+}
+
+/*IPHONE 12/13 PRO MAX*/
+@media all and (max-width: 428px) and (max-height: 926px){
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 165px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .contactUs-first-section {
+        display: grid;
+        height: 32vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }   
+
+    .register-now-content > h2 {
+        font-size: 28px !important;
+        width: inherit;
+        margin: 8px;
+        padding: 12px;
+    }
+    
+    .register-now-content > p {
+        font-size: 15px;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .contactUs-button-div button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 17px !important;
+        width: 135px !important;
+        height: 50px !important;
+        align-items: center;
+        text-align: center;
+    }
+     /*
+    ---------END OF FIRST SECTION---------
+    */
+
+    
+
+}
+/*IPHONE 12/13 MINI SCREEN*/
+@media all and (max-width:375px) and (max-height: 812px){
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 155px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .contactUs-first-section {
+        display: grid;
+        height: 34vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }   
+
+    .register-now-content > h2 {
+        font-size: 23px !important;
+        width: 80%;
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
+    }
+    
+    .register-now-content > p {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .contactUs-button-div button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 17px !important;
+        width: 125px !important;
+        height: 48px !important;
+        align-items: center;
+        text-align: center;
+    }
+     /*
+    ---------END OF FIRST SECTION---------
+    */
+
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+    .contactUs-second-section {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 52vh !important;
+    }
+
+    .contactUs-second-section > img {
+        height: 18em;
+        margin-top: 22px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 0;
+    }
+    .follow-us-content {
+        margin: 0;
+        margin-top: 18px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .follow-us-content > h2 {
+        font-weight: 700;
+        font-size: 23px !important;
+
+    }
+    .follow-us-content > p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12px !important;
+        font-weight: 300;
+    }
+    /*
+    ------------END OF SECOND SECTION------------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+    .gym-form-section {
+        height: 72vh;
+        display: block;
+    }
+    
+    .subhead > h2{
+
+        font-size: 23px !important;
+        font-weight: 700;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .button-div > button{
+        width: 125px !important;
+        height: 50px !important;
+        margin: 0;
+        margin-top: 7em;
+        width: 100%;
+    }
+    label {
+        font-size: 14px;
+    }
+ 
+    /*
+    ------------END OF FORM SECTION------------
+    */
+}
+
+/*IPHONE SE 2ND GEN SCREEN*/
+@media all and (max-width:375px) and (max-height: 667px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 154px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .contactUs-first-section {
+        display: grid;
+        height: 38vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }   
+
+    .register-now-content > h2 {
+        font-size: 23px !important;
+        width: 80%;
+        /* margin-left: 10%; */
+        /* margin-right: 10%; */
+    }
+    
+    .register-now-content > p {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .contactUs-button-div button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 17px !important;
+        width: 125px !important;
+        height: 48px !important;
+        align-items: center;
+        text-align: center;
+    }
+     /*
+    ---------END OF FIRST SECTION---------
+    */
+
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+    .contactUs-second-section {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 60vh !important;
+    }
+
+    .contactUs-second-section > img {
+        height: 16.5em;
+        margin-top: 26px;
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-bottom: 0;
+    }
+    .follow-us-content {
+        margin: 0;
+        margin-top: 18px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .follow-us-content > h2 {
+        font-weight: 700;
+        font-size: 23px !important;
+
+    }
+    .follow-us-content > p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12px !important;
+        font-weight: 300;
+    }
+    /*
+    ------------END OF SECOND SECTION------------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+    .gym-form-section {
+        height: 90vh;
+        display: block;
+    }
+    
+    .subhead > h2{
+        font-size: 23px !important;
+        font-weight: 700;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .button-div > button{
+        width: 125px !important;
+        height: 50px !important;
+        margin: 0;
+        margin-top: 7em;
+        width: 100%;
+    }
+ 
+    /*
+    ------------END OF FORM SECTION------------
+    */  
+    label {
+        font-size: 14px;
+    }
 }
