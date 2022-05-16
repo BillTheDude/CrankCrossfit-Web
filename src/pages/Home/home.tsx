@@ -115,6 +115,10 @@ function Home() {
             --------------END OF WRAPPER SECTION--------------
             */}
 
+            {/* 
+            --------------START OF THIRD SECTION--------------
+            */}
+
             <section className="section third-section">
                 <img src={require('../../images/gym-group-pic1-desktop.png')}style={{width: "100%",margin:"0"}} alt="more than a just img"/>
                 <div id="content-third-section">
@@ -122,6 +126,10 @@ function Home() {
                     <p>For over 10 years, we ensure to make our gym a second home to everyone. Essential guidance from our professional coaches to accomplish their fitness goals.</p>
                 </div>
             </section>
+
+             {/* 
+            --------------END OF THIRD SECTION--------------
+            */}
 
 
             {/* 

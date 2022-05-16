@@ -95,7 +95,7 @@ a:hover{
 }
 
 
-@media screen and (max-width: 1440px) {
+@media all and (max-width: 1440px) {
      /*
     ------------START OF FIRST SECTION------------
     */
@@ -275,7 +275,164 @@ a:hover{
     */
 }
 
-@media screen and (max-width: 493px) {
+/*IPAD*/
+/*
+    <H2>-FONT SIZE: 33px
+    <P> - FONT SIZE: 17px
+*/
+@media all and (max-width: 810px) and (max-height:1080px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    body{
+        position: relative;
+    }
+    .section {
+        margin: 0;
+        display: block;
+    }
+
+     /*
+    ------------NAVBAR SECTION------------
+    */
+    .nav-header {
+        height: 165px !important;
+    }
+    .navbar {
+        position: relative;
+        height: inherit;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        margin-top: 2em;
+        display: block;
+    }
+    .navbar-brand > img {
+        width: 100px !important;
+        height: auto;
+    }
+
+    /*
+    ---------START OF FIRST SECTION---------
+    */
+    .contactUs-first-section {
+        display: grid;
+        height: 32vh;
+        place-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }   
+
+    .register-now-content > h2 {
+        font-size: 38px !important;
+        width: inherit;
+        margin: 8px;
+        padding: 12px;
+        text-align: center
+    }
+    
+    .register-now-content > p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .contactUs-button-div button {
+        border-width: 0px !important;
+        border: none !important;
+        font-size: 19px !important;
+        width: 140px !important;
+        height: 50px !important;
+        align-items: center;
+        text-align: center;
+    }
+     /*
+    ---------END OF FIRST SECTION---------
+    */
+
+
+    /*
+    ---------START OF SECOND SECTION---------
+    */
+    .contactUs-second-section {
+        background-color: #db3333;
+        color: white;
+        height: 36vh;
+        display: flex;
+    }
+
+    .contactUs-second-section > img {
+        height: 22em;
+        margin: 18px;
+        margin-top: 36px;
+    }
+
+    .follow-us-content {
+        text-align: left !important;
+        margin: 2em;
+        margin-right: 0;
+        margin-top: 10%;
+        width: 45%;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .follow-us-content > h2 {
+        font-size: 38px !important;
+        margin: 18px;
+        font-weight: 700;
+        /* width: inherit; */
+    }
+    .follow-us-content > p {
+        font-size: 20px;
+        margin: 8px;
+        padding: 10px;
+        /* width: inherit; */
+    }
+   
+    /*
+    ---------END OF SECOND SECTION---------
+    */
+
+    /*
+    ------------START OF FORM SECTION------------
+    */
+    .gym-form-section {
+        height: 45vh;
+        display: block;
+        width: inherit;
+    }
+    
+    .subhead > h2{
+        margin: 8px !important;
+        padding: 12px;
+        font-size: 30px !important;
+        font-weight: 700;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button-div{
+        width: inherit;
+        margin: 4px;
+        padding: 12px;
+    }
+    .button-div > button{
+        width: 125px !important;
+        height: 50px !important;
+    }
+    label {
+        font-size: 16px;
+    }
+ 
+    /*
+    ------------END OF FORM SECTION------------
+    */
+    
+}
+
+@media all and (max-width: 493px) {
     html, body{
         overflow-x: hidden;
     }
@@ -529,6 +686,11 @@ a:hover{
 }
 
 /*IPHONE 12/13 PRO MAX*/
+/*
+    <H2>-FONT SIZE: 33px
+    <P> - FONT SIZE: 17px
+*/
+/* @media all and (max-width: 428px) and (max-height: 926px) */
 @media all and (max-width: 428px) and (max-height: 926px){
     html, body{
         overflow-x: hidden;
@@ -575,14 +737,14 @@ a:hover{
     }   
 
     .register-now-content > h2 {
-        font-size: 28px !important;
+        font-size: 33px !important;
         width: inherit;
         margin: 8px;
         padding: 12px;
     }
     
     .register-now-content > p {
-        font-size: 15px;
+        font-size: 17px;
         text-align: center;
         margin-top: 1em;
     }
@@ -599,10 +761,99 @@ a:hover{
     ---------END OF FIRST SECTION---------
     */
 
+    /*
+    ------------START OF SECOND SECTION------------
+    */
+    .contactUs-second-section {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        color: white;
+        height: 54vh !important;
+    }
+
+    .contactUs-second-section > img {
+        height: 18em;
+        margin-top: 33px;
+        margin-left: 24%;
+        margin-right: 24%;
+        margin-bottom: 0;
+    }
+    .follow-us-content {
+        margin: 0;
+        margin-top: 18px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: inherit;
+    }
+    .follow-us-content > h2 {
+        font-weight: 700;
+        width: inherit;
+        margin: 0;
+        margin: 8px;
+        padding: 12px;
+        text-align: center;
+        font-size: 33px !important;
+
+    }
+    .follow-us-content > p {
+        width: inherit;
+        text-align: center;
+        margin: 8px;
+        padding: 10px;
+        font-size: 17px !important;
+        font-weight: 300;
+    }
+    /*
+    ------------END OF SECOND SECTION------------
+    */
+    /*
+    ------------START OF FORM SECTION------------
+    */
+    .gym-form-section {
+        height: 68vh;
+        display: block;
+        width: inherit;
+    }
     
+    .subhead > h2{
+        margin: 8px !important;
+        padding: 12px;
+        font-size: 30px !important;
+        font-weight: 700;
+        justify-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button-div{
+        width: inherit;
+        margin: 4px;
+        padding: 12px;
+    }
+    .button-div > button{
+        width: 125px !important;
+        height: 50px !important;
+    }
+    label {
+        font-size: 14px;
+    }
+ 
+    /*
+    ------------END OF FORM SECTION------------
+    */
 
 }
+
+
 /*IPHONE 12/13 MINI SCREEN*/
+/*
+    <H2>-FONT SIZE: 30px
+    <P> - FONT SIZE: 15px
+*/
+
+/* @media all and (max-width:375px) and (max-height: 812px) */
 @media all and (max-width:375px) and (max-height: 812px){
     html, body{
         overflow-x: hidden;
@@ -641,22 +892,22 @@ a:hover{
     */
     .contactUs-first-section {
         display: grid;
-        height: 34vh;
         place-items: center;
         justify-content: center;
         text-align: center;
         color: white;
+        height: 34vh;
     }   
 
     .register-now-content > h2 {
-        font-size: 23px !important;
-        width: 80%;
-        /* margin-left: 10%; */
-        /* margin-right: 10%; */
+        font-size: 30px !important;
+        width: inherit;
+        margin: 8px;
+        padding: 12px;
     }
     
     .register-now-content > p {
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
         margin-top: 1em;
     }
@@ -664,7 +915,7 @@ a:hover{
         border-width: 0px !important;
         border: none !important;
         font-size: 17px !important;
-        width: 125px !important;
+        width: 145px !important;
         height: 48px !important;
         align-items: center;
         text-align: center;
@@ -680,34 +931,40 @@ a:hover{
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 52vh !important;
+        display: grid;
+        color: #ffffff;
+        height: 54vh !important;
     }
 
     .contactUs-second-section > img {
-        height: 18em;
-        margin-top: 22px;
-        margin-left: 20%;
-        margin-right: 20%;
+        height: 16em;
+        margin-top: 32px;
+        margin-left: 24%;
+        margin-right: 24%;
         margin-bottom: 0;
     }
     .follow-us-content {
         margin: 0;
-        margin-top: 18px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;
+        width: inherit;
     }
     .follow-us-content > h2 {
         font-weight: 700;
-        font-size: 23px !important;
+        font-size: 32px !important;
+        width: inherit;
+        margin: 8px;
+        padding: 12px;
+        text-align: center;
 
     }
     .follow-us-content > p {
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 12px !important;
+        margin: 8px;
+        padding: 10px;
+        font-size: 15px !important;
         font-weight: 300;
+        width: inherit;
     }
     /*
     ------------END OF SECOND SECTION------------
@@ -717,25 +974,29 @@ a:hover{
     ------------START OF FORM SECTION------------
     */
     .gym-form-section {
-        height: 72vh;
+        height: 74vh;
         display: block;
+        width: inherit;
     }
     
     .subhead > h2{
-
-        font-size: 23px !important;
+        margin: 8px !important;
+        font-size: 30px !important;
         font-weight: 700;
         justify-content: center;
         text-align: center;
         text-transform: uppercase;
     }
     
+    .button-div {
+        width: inherit;
+        margin: 4px;
+        padding: 12px;
+    }
     .button-div > button{
-        width: 125px !important;
+        margin-top: 6em;
+        width: 145px !important;
         height: 50px !important;
-        margin: 0;
-        margin-top: 7em;
-        width: 100%;
     }
     label {
         font-size: 14px;
@@ -747,6 +1008,12 @@ a:hover{
 }
 
 /*IPHONE SE 2ND GEN SCREEN*/
+/*
+    <H2>-FONT SIZE: 28px
+    <P> - FONT SIZE: 15px
+*/
+
+/* @media all and (max-width:375px) and (max-height: 667px) */
 @media all and (max-width:375px) and (max-height: 667px) {
     html, body{
         overflow-x: hidden;
@@ -793,14 +1060,14 @@ a:hover{
     }   
 
     .register-now-content > h2 {
-        font-size: 23px !important;
-        width: 80%;
-        /* margin-left: 10%; */
-        /* margin-right: 10%; */
+        font-size: 28px !important;
+        width: inherit;
+        margin: 8px;
+        padding: 12px;
     }
     
     .register-now-content > p {
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
         margin-top: 1em;
     }
@@ -808,7 +1075,7 @@ a:hover{
         border-width: 0px !important;
         border: none !important;
         font-size: 17px !important;
-        width: 125px !important;
+        width: 145px !important;
         height: 48px !important;
         align-items: center;
         text-align: center;
@@ -824,34 +1091,39 @@ a:hover{
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 60vh !important;
+        display: grid;
+        height: 64vh !important;
+        color: white;
     }
 
     .contactUs-second-section > img {
-        height: 16.5em;
-        margin-top: 26px;
-        margin-left: 22%;
-        margin-right: 22%;
+        height: 15em;
+        margin-top: 33px;
+        margin-left: 24%;
+        margin-right: 24%;
         margin-bottom: 0;
     }
     .follow-us-content {
         margin: 0;
-        margin-top: 18px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;
+        width: inherit;
     }
     .follow-us-content > h2 {
         font-weight: 700;
-        font-size: 23px !important;
-
+        text-align: center;
+        width: inherit;
+        font-size: 28px;
+        margin: 8px;
+        padding: 12px;
     }
     .follow-us-content > p {
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size: 12px !important;
+        margin: 8px;
+        padding: 10px;
+        font-size: 15px !important;
         font-weight: 300;
+        width: inherit;
     }
     /*
     ------------END OF SECOND SECTION------------
@@ -863,28 +1135,33 @@ a:hover{
     .gym-form-section {
         height: 90vh;
         display: block;
+        width: inherit;
     }
     
     .subhead > h2{
-        font-size: 23px !important;
+        margin: 8px !important;
+        font-size: 28px !important;
         font-weight: 700;
         justify-content: center;
         text-align: center;
         text-transform: uppercase;
     }
+    .button-div{
+        width: inherit;
+        margin: 4px;
+        padding: 12px;
+    }
     
     .button-div > button{
         width: 125px !important;
         height: 50px !important;
-        margin: 0;
-        margin-top: 7em;
-        width: 100%;
+        margin-top: 6em;
     }
  
-    /*
-    ------------END OF FORM SECTION------------
-    */  
     label {
         font-size: 14px;
     }
+    /*
+    ------------END OF FORM SECTION------------
+    */  
 }

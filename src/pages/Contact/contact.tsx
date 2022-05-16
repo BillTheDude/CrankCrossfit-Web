@@ -100,8 +100,8 @@ export default function ContactUs() {
     
            {/* START OF FORM SECTION*/}
            <section className="gym-form-section">
-                <div className="subhead" id="myButton">
-                    <h2  style={{fontSize:"42px"}}>Have Questions?</h2>
+                <div className="subhead">
+                    <h2 style={{fontSize:"42px"}}>Have Questions?</h2>
                 </div>
                 <form>
                                 <div className="row">
